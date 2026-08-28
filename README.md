@@ -1,54 +1,49 @@
 # Capturing Ancient Chinese Sense Induction with Automatic Pipelines
 
-This repository contains the code and reproducibility materials for the study of diachronic sense induction in Ancient Chinese. The paper's six conceptual stages are implemented as eight executable stages because the two cleaning stages and the post-processing stages are kept separate:
+This repository accompanies the paper on automatically identifying diachronic sense patterns in Ancient Chinese. It provides the analysis code, paper figures, cluster assignments, semantic annotations, and summary statistics for three characters:
 
-`extract -> clean1 -> sample -> clean2 -> local -> global -> postprocess -> local_annotate`
+- 手 (*shǒu*, “hand”)
+- 水 (*shuǐ*, “water”)
+- 道 (*dào*, “way, road, principle”)
 
-## Canonical pipeline
+The paper and detailed reproduction notes are available in [`documentation/`](documentation/), including the [paper PDF](documentation/paper.pdf).
 
-Use [final_pipeline.py](final_pipeline.py) as the canonical entry point. Its defaults match the paper:
+## What Is Included
 
-- contextual embeddings from GujiBERT-fan
-- at most 200 occurrences per document during stratified sampling
-- 768-dimensional embeddings for clustering
-- Local: `K=20`, merge cosine threshold `0.95`, split ratio `0.3`
-- Global: `K=20`, merge cosine threshold `0.95`, split ratio `0.1`, fixed `sub-K=6`
-- `random_state=42` in the clustering, PCA, and silhouette sampling code
+| Directory | Contents |
+|---|---|
+| [`code/`](code/) | Embedding extraction, cleaning, sampling, clustering, and post-processing scripts |
+| [`configs/`](configs/) | Run parameters and Global cluster semantic labels |
+| [`results/hand/`](results/hand/) | Global, Local, and annotated results for 手 |
+| [`results/water/`](results/water/) | Global, Local, and annotated results for 水 |
+| [`results/dao/`](results/dao/) | Global, Local, and annotated results for 道 |
+| [`figures/`](figures/) | Figures corresponding to Figures 1–6 in the paper |
+| [`documentation/`](documentation/) | Pipeline specification and reproduction checklist |
 
-The complete stage specification and commands are documented in [final_pipeline.md](final_pipeline.md).
+Each result directory contains CSV assignments, JSON statistics, and visualizations. The `annotated/` directories contain the semantic labels used in the paper.
 
-## Verified paper results
+## Main Results
 
-The Global outputs in `pipeline_runs/run_dao_shui/stage_outputs/06_joint_output/` match the appendix:
+| Character | Occurrences | Global clusters | Local clusters |
+|---|---:|---:|---:|
+| 手 | 185,792 | 17 | dynasty-specific |
+| 水 | 313,184 | 12 | dynasty-specific |
+| 道 | 331,910 | 22 | dynasty-specific |
 
-| Character | Final rows | Final clusters | Global parameters |
-|---|---:|---:|---|
-| 水 | 313,184 | 12 | `K=20`, `merge=0.95`, `split=0.1`, `sub-K=6` |
-| 道 | 331,910 | 22 | `K=20`, `merge=0.95`, `split=0.1`, `sub-K=6` |
+The Global results use `K=20`, a cosine merge threshold of `0.95`, a split ratio of `0.1`, and fixed `sub-K=6`. Local results use `K=20`, the same merge threshold, and a split ratio of `0.3` with dynamic sub-clustering. Clustering, PCA, and silhouette sampling use `random_state=42` where applicable.
 
-Both counts were checked against the corresponding `joint_stats.json` and merged CSV files.
+## Reproduction
 
-## Public release boundary
+The canonical entry point is [`code/pipeline.py`](code/pipeline.py). The complete stage specification and example commands are in [`documentation/pipeline.md`](documentation/pipeline.md), with a shorter checklist in [`documentation/reproduction_checklist.md`](documentation/reproduction_checklist.md).
 
-Recommended repository contents:
+This public release contains the derived results and does not include the large embedding files or vector-containing PKL files required to start from raw text. To reproduce the full extraction pipeline, obtain the source texts and model according to their access and redistribution terms, then provide them as inputs to the scripts in `code/`.
 
-- pipeline source code and execution documentation
-- `config.json`, summary statistics, selected small logs, cluster assignments, labels, and merge/split histories
-- final figures and the scripts that generate them
-- metadata and links or identifiers for the source texts
-- label templates and human annotation records, with any restricted text removed
+## Data and Licensing Notes
 
-Do not commit the following without a separate size and rights review:
+The source corpus is the Chinese Text Project (CText). This repository does not redistribute a complete copy of that corpus. Users should obtain source texts directly from CText and follow its current access and redistribution terms. GujiBERT-fan model usage is subject to its own distribution terms.
 
-- raw CText copies or complete source passages
-- embedding JSONL files and vector-containing PKL files
-- API keys, credentials, or private annotations
-- model weights whose redistribution license is not confirmed
+The release intentionally excludes raw corpus dumps, embedding files, model weights, credentials, and private annotation material. The CSV files contain derived occurrence-level contexts; users should verify that their intended redistribution complies with the applicable source-corpus terms.
 
-The source corpus should be obtained from the Chinese Text Project according to its current access and redistribution terms. The repository should record the retrieval date, source URLs or identifiers, and the exact preprocessing configuration.
+## Terminology
 
-## Result naming
-
-The paper calls the cross-period analysis **Global Clustering**. The implementation file and output directory use **Joint Clustering** for the same analysis. Local output uses a shared PCA model fitted on all periods, so Local panels can be compared in one coordinate system.
-
-Older `0212`, `0218`, `0219`, and parameter-test outputs are exploratory or historical results. They should not be presented as the canonical paper result unless their parameters are explicitly stated.
+The paper uses **Global Clustering** for the cross-period analysis. Some implementation filenames use **Joint Clustering** for the same analysis. Local results use one PCA model fitted across all periods, allowing the dynasty panels to be compared in a shared coordinate system.

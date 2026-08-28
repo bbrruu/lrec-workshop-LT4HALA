@@ -1,0 +1,7114 @@
+{
+  "ming_L0": {
+    "dynasty": "ming",
+    "local_cluster": 0,
+    "total_sentences": 1281,
+    "assigned_label": [
+      "Physical_Usage",
+      "Culinary_Solvent"
+    ],
+    "majority_global": 0,
+    "majority_pct": 100.0,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 0,
+        "label": [
+          "Physical_Usage",
+          "Culinary_Solvent"
+        ],
+        "count": 1281,
+        "pct": 100.0
+      }
+    ]
+  },
+  "ming_L1": {
+    "dynasty": "ming",
+    "local_cluster": 1,
+    "total_sentences": 2486,
+    "assigned_label": [
+      "Physical_Usage",
+      "Culinary_Solvent"
+    ],
+    "majority_global": 0,
+    "majority_pct": 68.6,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 0,
+        "label": [
+          "Physical_Usage",
+          "Culinary_Solvent"
+        ],
+        "count": 1705,
+        "pct": 68.6
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 625,
+        "pct": 25.1
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 110,
+        "pct": 4.4
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 23,
+        "pct": 0.9
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 21,
+        "pct": 0.8
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 2,
+        "pct": 0.1
+      }
+    ]
+  },
+  "ming_L2": {
+    "dynasty": "ming",
+    "local_cluster": 2,
+    "total_sentences": 2332,
+    "assigned_label": [
+      "Cosmology",
+      "Water_Fire"
+    ],
+    "majority_global": 1,
+    "majority_pct": 78.3,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 1826,
+        "pct": 78.3
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 194,
+        "pct": 8.3
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 126,
+        "pct": 5.4
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 96,
+        "pct": 4.1
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 47,
+        "pct": 2.0
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 43,
+        "pct": 1.8
+      }
+    ]
+  },
+  "ming_L3": {
+    "dynasty": "ming",
+    "local_cluster": 3,
+    "total_sentences": 4866,
+    "assigned_label": [
+      "Cosmology",
+      "Wuxing"
+    ],
+    "majority_global": 4,
+    "majority_pct": 64.8,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 3153,
+        "pct": 64.8
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 849,
+        "pct": 17.4
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 529,
+        "pct": 10.9
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 309,
+        "pct": 6.4
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 21,
+        "pct": 0.4
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 5,
+        "pct": 0.1
+      }
+    ]
+  },
+  "ming_L4": {
+    "dynasty": "ming",
+    "local_cluster": 4,
+    "total_sentences": 3684,
+    "assigned_label": [
+      "Body_Medical",
+      "Pathology"
+    ],
+    "majority_global": 2,
+    "majority_pct": 91.4,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 3366,
+        "pct": 91.4
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 187,
+        "pct": 5.1
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 98,
+        "pct": 2.7
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 24,
+        "pct": 0.7
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 5,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 4,
+        "pct": 0.1
+      }
+    ]
+  },
+  "ming_L5": {
+    "dynasty": "ming",
+    "local_cluster": 5,
+    "total_sentences": 3465,
+    "assigned_label": [
+      "Geomancy",
+      "Fengshui"
+    ],
+    "majority_global": 11,
+    "majority_pct": 56.7,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 1965,
+        "pct": 56.7
+      },
+      {
+        "global_cluster": 3,
+        "label": [
+          "Military",
+          "Naval"
+        ],
+        "count": 1370,
+        "pct": 39.5
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 40,
+        "pct": 1.2
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 40,
+        "pct": 1.2
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 19,
+        "pct": 0.5
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 17,
+        "pct": 0.5
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 11,
+        "pct": 0.3
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 2,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 1,
+        "pct": 0.0
+      }
+    ]
+  },
+  "ming_L6": {
+    "dynasty": "ming",
+    "local_cluster": 6,
+    "total_sentences": 1545,
+    "assigned_label": [
+      "Physical_Usage",
+      "Culinary_Solvent"
+    ],
+    "majority_global": 0,
+    "majority_pct": 100.0,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 0,
+        "label": [
+          "Physical_Usage",
+          "Culinary_Solvent"
+        ],
+        "count": 1545,
+        "pct": 100.0
+      }
+    ]
+  },
+  "ming_L7": {
+    "dynasty": "ming",
+    "local_cluster": 7,
+    "total_sentences": 1870,
+    "assigned_label": [
+      "Geography",
+      "River_Name"
+    ],
+    "majority_global": 7,
+    "majority_pct": 71.7,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 1340,
+        "pct": 71.7
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 473,
+        "pct": 25.3
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 33,
+        "pct": 1.8
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 18,
+        "pct": 1.0
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 6,
+        "pct": 0.3
+      }
+    ]
+  },
+  "ming_L8": {
+    "dynasty": "ming",
+    "local_cluster": 8,
+    "total_sentences": 1966,
+    "assigned_label": [
+      "Literary",
+      "Imagery"
+    ],
+    "majority_global": 9,
+    "majority_pct": 85.4,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 1679,
+        "pct": 85.4
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 188,
+        "pct": 9.6
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 33,
+        "pct": 1.7
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 30,
+        "pct": 1.5
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 19,
+        "pct": 1.0
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 8,
+        "pct": 0.4
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 5,
+        "pct": 0.3
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 4,
+        "pct": 0.2
+      }
+    ]
+  },
+  "ming_L9": {
+    "dynasty": "ming",
+    "local_cluster": 9,
+    "total_sentences": 7334,
+    "assigned_label": [
+      "Geomancy",
+      "Fengshui"
+    ],
+    "majority_global": 11,
+    "majority_pct": 54.6,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 4007,
+        "pct": 54.6
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 1693,
+        "pct": 23.1
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 929,
+        "pct": 12.7
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 607,
+        "pct": 8.3
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 53,
+        "pct": 0.7
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 29,
+        "pct": 0.4
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 8,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 6,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 1,
+        "pct": 0.0
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 1,
+        "pct": 0.0
+      }
+    ]
+  },
+  "ming_L10": {
+    "dynasty": "ming",
+    "local_cluster": 10,
+    "total_sentences": 7031,
+    "assigned_label": [
+      "NOISE",
+      "OCR_Error"
+    ],
+    "majority_global": 5,
+    "majority_pct": 47.4,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 3332,
+        "pct": 47.4
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 1413,
+        "pct": 20.1
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 1250,
+        "pct": 17.8
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 928,
+        "pct": 13.2
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 63,
+        "pct": 0.9
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 12,
+        "pct": 0.2
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 12,
+        "pct": 0.2
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 10,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 3,
+        "label": [
+          "Military",
+          "Naval"
+        ],
+        "count": 7,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 0,
+        "label": [
+          "Physical_Usage",
+          "Culinary_Solvent"
+        ],
+        "count": 2,
+        "pct": 0.0
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 2,
+        "pct": 0.0
+      }
+    ]
+  },
+  "ming_L11": {
+    "dynasty": "ming",
+    "local_cluster": 11,
+    "total_sentences": 8440,
+    "assigned_label": [
+      "Literary",
+      "Imagery"
+    ],
+    "majority_global": 9,
+    "majority_pct": 49.0,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 4137,
+        "pct": 49.0
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 2916,
+        "pct": 34.5
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 1206,
+        "pct": 14.3
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 143,
+        "pct": 1.7
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 22,
+        "pct": 0.3
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 11,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 4,
+        "pct": 0.0
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 1,
+        "pct": 0.0
+      }
+    ]
+  },
+  "ming_L12": {
+    "dynasty": "ming",
+    "local_cluster": 12,
+    "total_sentences": 10789,
+    "assigned_label": [
+      "Physical_Usage",
+      "General"
+    ],
+    "majority_global": 8,
+    "majority_pct": 68.9,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 7430,
+        "pct": 68.9
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 1693,
+        "pct": 15.7
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 854,
+        "pct": 7.9
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 278,
+        "pct": 2.6
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 235,
+        "pct": 2.2
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 132,
+        "pct": 1.2
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 117,
+        "pct": 1.1
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 30,
+        "pct": 0.3
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 20,
+        "pct": 0.2
+      }
+    ]
+  },
+  "ming_L13": {
+    "dynasty": "ming",
+    "local_cluster": 13,
+    "total_sentences": 6792,
+    "assigned_label": [
+      "Geography",
+      "Hydrology"
+    ],
+    "majority_global": 10,
+    "majority_pct": 66.2,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 4494,
+        "pct": 66.2
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 671,
+        "pct": 9.9
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 547,
+        "pct": 8.1
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 365,
+        "pct": 5.4
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 311,
+        "pct": 4.6
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 228,
+        "pct": 3.4
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 155,
+        "pct": 2.3
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 14,
+        "pct": 0.2
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 7,
+        "pct": 0.1
+      }
+    ]
+  },
+  "ming_L14": {
+    "dynasty": "ming",
+    "local_cluster": 14,
+    "total_sentences": 6233,
+    "assigned_label": [
+      "Literary",
+      "Allusion"
+    ],
+    "majority_global": 6,
+    "majority_pct": 43.9,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 2739,
+        "pct": 43.9
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 2378,
+        "pct": 38.2
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 810,
+        "pct": 13.0
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 250,
+        "pct": 4.0
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 52,
+        "pct": 0.8
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 2,
+        "pct": 0.0
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 1,
+        "pct": 0.0
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 1,
+        "pct": 0.0
+      }
+    ]
+  },
+  "pre-qin_L0": {
+    "dynasty": "pre-qin",
+    "local_cluster": 0,
+    "total_sentences": 136,
+    "assigned_label": [
+      "Cosmology",
+      "Water_Fire"
+    ],
+    "majority_global": 1,
+    "majority_pct": 90.4,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 123,
+        "pct": 90.4
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 11,
+        "pct": 8.1
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 1,
+        "pct": 0.7
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 1,
+        "pct": 0.7
+      }
+    ]
+  },
+  "pre-qin_L1": {
+    "dynasty": "pre-qin",
+    "local_cluster": 1,
+    "total_sentences": 149,
+    "assigned_label": [
+      "Geography",
+      "River_Name"
+    ],
+    "majority_global": 7,
+    "majority_pct": 100.0,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 149,
+        "pct": 100.0
+      }
+    ]
+  },
+  "pre-qin_L2": {
+    "dynasty": "pre-qin",
+    "local_cluster": 2,
+    "total_sentences": 161,
+    "assigned_label": [
+      "Cosmology",
+      "Wuxing"
+    ],
+    "majority_global": 4,
+    "majority_pct": 83.9,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 135,
+        "pct": 83.9
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 20,
+        "pct": 12.4
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 3,
+        "pct": 1.9
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 3,
+        "pct": 1.9
+      }
+    ]
+  },
+  "pre-qin_L3": {
+    "dynasty": "pre-qin",
+    "local_cluster": 3,
+    "total_sentences": 478,
+    "assigned_label": [
+      "Geography",
+      "River_Name"
+    ],
+    "majority_global": 7,
+    "majority_pct": 44.4,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 212,
+        "pct": 44.4
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 102,
+        "pct": 21.3
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 88,
+        "pct": 18.4
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 34,
+        "pct": 7.1
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 30,
+        "pct": 6.3
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 5,
+        "pct": 1.0
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 5,
+        "pct": 1.0
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 1,
+        "pct": 0.2
+      },
+      {
+        "global_cluster": 3,
+        "label": [
+          "Military",
+          "Naval"
+        ],
+        "count": 1,
+        "pct": 0.2
+      }
+    ]
+  },
+  "pre-qin_L4": {
+    "dynasty": "pre-qin",
+    "local_cluster": 4,
+    "total_sentences": 798,
+    "assigned_label": [
+      "Geography",
+      "Hydrology"
+    ],
+    "majority_global": 10,
+    "majority_pct": 45.5,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 363,
+        "pct": 45.5
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 235,
+        "pct": 29.4
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 60,
+        "pct": 7.5
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 59,
+        "pct": 7.4
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 41,
+        "pct": 5.1
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 9,
+        "pct": 1.1
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 7,
+        "pct": 0.9
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 7,
+        "pct": 0.9
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 6,
+        "pct": 0.8
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 5,
+        "pct": 0.6
+      },
+      {
+        "global_cluster": 3,
+        "label": [
+          "Military",
+          "Naval"
+        ],
+        "count": 5,
+        "pct": 0.6
+      },
+      {
+        "global_cluster": 0,
+        "label": [
+          "Physical_Usage",
+          "Culinary_Solvent"
+        ],
+        "count": 1,
+        "pct": 0.1
+      }
+    ]
+  },
+  "qing_L0": {
+    "dynasty": "qing",
+    "local_cluster": 0,
+    "total_sentences": 3530,
+    "assigned_label": [
+      "Geography",
+      "River_Name"
+    ],
+    "majority_global": 7,
+    "majority_pct": 78.1,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 2758,
+        "pct": 78.1
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 351,
+        "pct": 9.9
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 288,
+        "pct": 8.2
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 108,
+        "pct": 3.1
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 24,
+        "pct": 0.7
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 1,
+        "pct": 0.0
+      }
+    ]
+  },
+  "qing_L1": {
+    "dynasty": "qing",
+    "local_cluster": 1,
+    "total_sentences": 19602,
+    "assigned_label": [
+      "Body_Medical",
+      "Pathology"
+    ],
+    "majority_global": 2,
+    "majority_pct": 74.6,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 14625,
+        "pct": 74.6
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 3136,
+        "pct": 16.0
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 866,
+        "pct": 4.4
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 694,
+        "pct": 3.5
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 195,
+        "pct": 1.0
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 50,
+        "pct": 0.3
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 25,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 6,
+        "pct": 0.0
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 4,
+        "pct": 0.0
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 1,
+        "pct": 0.0
+      }
+    ]
+  },
+  "qing_L2": {
+    "dynasty": "qing",
+    "local_cluster": 2,
+    "total_sentences": 7284,
+    "assigned_label": [
+      "Military",
+      "Naval"
+    ],
+    "majority_global": 3,
+    "majority_pct": 88.9,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 3,
+        "label": [
+          "Military",
+          "Naval"
+        ],
+        "count": 6477,
+        "pct": 88.9
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 795,
+        "pct": 10.9
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 5,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 3,
+        "pct": 0.0
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 1,
+        "pct": 0.0
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 1,
+        "pct": 0.0
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 1,
+        "pct": 0.0
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 1,
+        "pct": 0.0
+      }
+    ]
+  },
+  "qing_L3": {
+    "dynasty": "qing",
+    "local_cluster": 3,
+    "total_sentences": 5436,
+    "assigned_label": [
+      "Physical_Usage",
+      "Culinary_Solvent"
+    ],
+    "majority_global": 0,
+    "majority_pct": 53.6,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 0,
+        "label": [
+          "Physical_Usage",
+          "Culinary_Solvent"
+        ],
+        "count": 2911,
+        "pct": 53.6
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 2489,
+        "pct": 45.8
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 23,
+        "pct": 0.4
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 10,
+        "pct": 0.2
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 2,
+        "pct": 0.0
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 1,
+        "pct": 0.0
+      }
+    ]
+  },
+  "qing_L4": {
+    "dynasty": "qing",
+    "local_cluster": 4,
+    "total_sentences": 2540,
+    "assigned_label": [
+      "Geography",
+      "River_Name"
+    ],
+    "majority_global": 7,
+    "majority_pct": 98.7,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 2508,
+        "pct": 98.7
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 16,
+        "pct": 0.6
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 10,
+        "pct": 0.4
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 4,
+        "pct": 0.2
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 2,
+        "pct": 0.1
+      }
+    ]
+  },
+  "qing_L5": {
+    "dynasty": "qing",
+    "local_cluster": 5,
+    "total_sentences": 6081,
+    "assigned_label": [
+      "Cosmology",
+      "Wuxing"
+    ],
+    "majority_global": 4,
+    "majority_pct": 54.1,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 3290,
+        "pct": 54.1
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 2503,
+        "pct": 41.2
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 129,
+        "pct": 2.1
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 103,
+        "pct": 1.7
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 46,
+        "pct": 0.8
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 3,
+        "pct": 0.0
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 3,
+        "pct": 0.0
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 2,
+        "pct": 0.0
+      },
+      {
+        "global_cluster": 3,
+        "label": [
+          "Military",
+          "Naval"
+        ],
+        "count": 2,
+        "pct": 0.0
+      }
+    ]
+  },
+  "qing_L6": {
+    "dynasty": "qing",
+    "local_cluster": 6,
+    "total_sentences": 3746,
+    "assigned_label": [
+      "Literary",
+      "Imagery"
+    ],
+    "majority_global": 9,
+    "majority_pct": 82.9,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 3104,
+        "pct": 82.9
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 306,
+        "pct": 8.2
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 146,
+        "pct": 3.9
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 88,
+        "pct": 2.3
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 45,
+        "pct": 1.2
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 26,
+        "pct": 0.7
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 17,
+        "pct": 0.5
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 14,
+        "pct": 0.4
+      }
+    ]
+  },
+  "qing_L7": {
+    "dynasty": "qing",
+    "local_cluster": 7,
+    "total_sentences": 4547,
+    "assigned_label": [
+      "Physical_Usage",
+      "Culinary_Solvent"
+    ],
+    "majority_global": 0,
+    "majority_pct": 97.0,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 0,
+        "label": [
+          "Physical_Usage",
+          "Culinary_Solvent"
+        ],
+        "count": 4410,
+        "pct": 97.0
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 48,
+        "pct": 1.1
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 33,
+        "pct": 0.7
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 28,
+        "pct": 0.6
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 23,
+        "pct": 0.5
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 5,
+        "pct": 0.1
+      }
+    ]
+  },
+  "qing_L8": {
+    "dynasty": "qing",
+    "local_cluster": 8,
+    "total_sentences": 10868,
+    "assigned_label": [
+      "Geography",
+      "River_Name"
+    ],
+    "majority_global": 7,
+    "majority_pct": 45.9,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 4984,
+        "pct": 45.9
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 3251,
+        "pct": 29.9
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 2056,
+        "pct": 18.9
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 384,
+        "pct": 3.5
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 165,
+        "pct": 1.5
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 17,
+        "pct": 0.2
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 5,
+        "pct": 0.0
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 4,
+        "pct": 0.0
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 2,
+        "pct": 0.0
+      }
+    ]
+  },
+  "qing_L9": {
+    "dynasty": "qing",
+    "local_cluster": 9,
+    "total_sentences": 17028,
+    "assigned_label": [
+      "Physical_Usage",
+      "General"
+    ],
+    "majority_global": 8,
+    "majority_pct": 50.6,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 8618,
+        "pct": 50.6
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 6696,
+        "pct": 39.3
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 541,
+        "pct": 3.2
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 318,
+        "pct": 1.9
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 282,
+        "pct": 1.7
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 226,
+        "pct": 1.3
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 151,
+        "pct": 0.9
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 131,
+        "pct": 0.8
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 61,
+        "pct": 0.4
+      },
+      {
+        "global_cluster": 3,
+        "label": [
+          "Military",
+          "Naval"
+        ],
+        "count": 4,
+        "pct": 0.0
+      }
+    ]
+  },
+  "qing_L10": {
+    "dynasty": "qing",
+    "local_cluster": 10,
+    "total_sentences": 13905,
+    "assigned_label": [
+      "Literary",
+      "Imagery"
+    ],
+    "majority_global": 9,
+    "majority_pct": 52.6,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 7314,
+        "pct": 52.6
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 3487,
+        "pct": 25.1
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 2343,
+        "pct": 16.9
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 522,
+        "pct": 3.8
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 164,
+        "pct": 1.2
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 37,
+        "pct": 0.3
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 37,
+        "pct": 0.3
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 1,
+        "pct": 0.0
+      }
+    ]
+  },
+  "qing_L11": {
+    "dynasty": "qing",
+    "local_cluster": 11,
+    "total_sentences": 16973,
+    "assigned_label": [
+      "NOISE",
+      "OCR_Error"
+    ],
+    "majority_global": 5,
+    "majority_pct": 47.6,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 8083,
+        "pct": 47.6
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 4084,
+        "pct": 24.1
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 2998,
+        "pct": 17.7
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 1636,
+        "pct": 9.6
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 89,
+        "pct": 0.5
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 48,
+        "pct": 0.3
+      },
+      {
+        "global_cluster": 0,
+        "label": [
+          "Physical_Usage",
+          "Culinary_Solvent"
+        ],
+        "count": 16,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 13,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 3,
+        "label": [
+          "Military",
+          "Naval"
+        ],
+        "count": 5,
+        "pct": 0.0
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 1,
+        "pct": 0.0
+      }
+    ]
+  },
+  "qing_L12": {
+    "dynasty": "qing",
+    "local_cluster": 12,
+    "total_sentences": 18680,
+    "assigned_label": [
+      "Geomancy",
+      "Fengshui"
+    ],
+    "majority_global": 11,
+    "majority_pct": 73.1,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 13650,
+        "pct": 73.1
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 1533,
+        "pct": 8.2
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 1358,
+        "pct": 7.3
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 966,
+        "pct": 5.2
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 826,
+        "pct": 4.4
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 173,
+        "pct": 0.9
+      },
+      {
+        "global_cluster": 3,
+        "label": [
+          "Military",
+          "Naval"
+        ],
+        "count": 97,
+        "pct": 0.5
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 41,
+        "pct": 0.2
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 31,
+        "pct": 0.2
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 5,
+        "pct": 0.0
+      }
+    ]
+  },
+  "qing_L13": {
+    "dynasty": "qing",
+    "local_cluster": 13,
+    "total_sentences": 19200,
+    "assigned_label": [
+      "Physical_Usage",
+      "General"
+    ],
+    "majority_global": 8,
+    "majority_pct": 52.5,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 10081,
+        "pct": 52.5
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 4052,
+        "pct": 21.1
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 3378,
+        "pct": 17.6
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 1092,
+        "pct": 5.7
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 303,
+        "pct": 1.6
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 96,
+        "pct": 0.5
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 79,
+        "pct": 0.4
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 74,
+        "pct": 0.4
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 38,
+        "pct": 0.2
+      },
+      {
+        "global_cluster": 0,
+        "label": [
+          "Physical_Usage",
+          "Culinary_Solvent"
+        ],
+        "count": 7,
+        "pct": 0.0
+      }
+    ]
+  },
+  "qinhan_L0": {
+    "dynasty": "qinhan",
+    "local_cluster": 0,
+    "total_sentences": 369,
+    "assigned_label": [
+      "Literary",
+      "Allusion"
+    ],
+    "majority_global": 6,
+    "majority_pct": 54.7,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 202,
+        "pct": 54.7
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 145,
+        "pct": 39.3
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 11,
+        "pct": 3.0
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 4,
+        "pct": 1.1
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 4,
+        "pct": 1.1
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 2,
+        "pct": 0.5
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 1,
+        "pct": 0.3
+      }
+    ]
+  },
+  "qinhan_L1": {
+    "dynasty": "qinhan",
+    "local_cluster": 1,
+    "total_sentences": 160,
+    "assigned_label": [
+      "Physical_Usage",
+      "General"
+    ],
+    "majority_global": 8,
+    "majority_pct": 51.9,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 83,
+        "pct": 51.9
+      },
+      {
+        "global_cluster": 0,
+        "label": [
+          "Physical_Usage",
+          "Culinary_Solvent"
+        ],
+        "count": 67,
+        "pct": 41.9
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 6,
+        "pct": 3.8
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 3,
+        "pct": 1.9
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 1,
+        "pct": 0.6
+      }
+    ]
+  },
+  "qinhan_L2": {
+    "dynasty": "qinhan",
+    "local_cluster": 2,
+    "total_sentences": 22,
+    "assigned_label": [
+      "Physical_Usage",
+      "Culinary_Solvent"
+    ],
+    "majority_global": 0,
+    "majority_pct": 95.5,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 0,
+        "label": [
+          "Physical_Usage",
+          "Culinary_Solvent"
+        ],
+        "count": 21,
+        "pct": 95.5
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 1,
+        "pct": 4.5
+      }
+    ]
+  },
+  "qinhan_L3": {
+    "dynasty": "qinhan",
+    "local_cluster": 3,
+    "total_sentences": 260,
+    "assigned_label": [
+      "Geography",
+      "River_Name"
+    ],
+    "majority_global": 7,
+    "majority_pct": 93.8,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 244,
+        "pct": 93.8
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 16,
+        "pct": 6.2
+      }
+    ]
+  },
+  "qinhan_L4": {
+    "dynasty": "qinhan",
+    "local_cluster": 4,
+    "total_sentences": 491,
+    "assigned_label": [
+      "Physical_Usage",
+      "Culinary_Solvent"
+    ],
+    "majority_global": 0,
+    "majority_pct": 100.0,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 0,
+        "label": [
+          "Physical_Usage",
+          "Culinary_Solvent"
+        ],
+        "count": 491,
+        "pct": 100.0
+      }
+    ]
+  },
+  "qinhan_L5": {
+    "dynasty": "qinhan",
+    "local_cluster": 5,
+    "total_sentences": 193,
+    "assigned_label": [
+      "Cosmology",
+      "Water_Fire"
+    ],
+    "majority_global": 1,
+    "majority_pct": 64.8,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 125,
+        "pct": 64.8
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 24,
+        "pct": 12.4
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 14,
+        "pct": 7.3
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 12,
+        "pct": 6.2
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 12,
+        "pct": 6.2
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 3,
+        "pct": 1.6
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 2,
+        "pct": 1.0
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 1,
+        "pct": 0.5
+      }
+    ]
+  },
+  "qinhan_L6": {
+    "dynasty": "qinhan",
+    "local_cluster": 6,
+    "total_sentences": 357,
+    "assigned_label": [
+      "Body_Medical",
+      "Pathology"
+    ],
+    "majority_global": 2,
+    "majority_pct": 91.3,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 326,
+        "pct": 91.3
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 20,
+        "pct": 5.6
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 8,
+        "pct": 2.2
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 1,
+        "pct": 0.3
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 1,
+        "pct": 0.3
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 1,
+        "pct": 0.3
+      }
+    ]
+  },
+  "qinhan_L7": {
+    "dynasty": "qinhan",
+    "local_cluster": 7,
+    "total_sentences": 1183,
+    "assigned_label": [
+      "Physical_Usage",
+      "General"
+    ],
+    "majority_global": 8,
+    "majority_pct": 52.8,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 625,
+        "pct": 52.8
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 351,
+        "pct": 29.7
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 93,
+        "pct": 7.9
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 61,
+        "pct": 5.2
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 37,
+        "pct": 3.1
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 6,
+        "pct": 0.5
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 6,
+        "pct": 0.5
+      },
+      {
+        "global_cluster": 3,
+        "label": [
+          "Military",
+          "Naval"
+        ],
+        "count": 4,
+        "pct": 0.3
+      }
+    ]
+  },
+  "qinhan_L8": {
+    "dynasty": "qinhan",
+    "local_cluster": 8,
+    "total_sentences": 591,
+    "assigned_label": [
+      "Cosmology",
+      "Wuxing"
+    ],
+    "majority_global": 4,
+    "majority_pct": 39.3,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 232,
+        "pct": 39.3
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 123,
+        "pct": 20.8
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 111,
+        "pct": 18.8
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 58,
+        "pct": 9.8
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 49,
+        "pct": 8.3
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 11,
+        "pct": 1.9
+      },
+      {
+        "global_cluster": 3,
+        "label": [
+          "Military",
+          "Naval"
+        ],
+        "count": 3,
+        "pct": 0.5
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 2,
+        "pct": 0.3
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 1,
+        "pct": 0.2
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 1,
+        "pct": 0.2
+      }
+    ]
+  },
+  "qinhan_L9": {
+    "dynasty": "qinhan",
+    "local_cluster": 9,
+    "total_sentences": 1199,
+    "assigned_label": [
+      "Geography",
+      "Hydrology"
+    ],
+    "majority_global": 10,
+    "majority_pct": 61.1,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 733,
+        "pct": 61.1
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 171,
+        "pct": 14.3
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 139,
+        "pct": 11.6
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 59,
+        "pct": 4.9
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 56,
+        "pct": 4.7
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 18,
+        "pct": 1.5
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 10,
+        "pct": 0.8
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 6,
+        "pct": 0.5
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 5,
+        "pct": 0.4
+      },
+      {
+        "global_cluster": 3,
+        "label": [
+          "Military",
+          "Naval"
+        ],
+        "count": 1,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 1,
+        "pct": 0.1
+      }
+    ]
+  },
+  "republican_L0": {
+    "dynasty": "republican",
+    "local_cluster": 0,
+    "total_sentences": 296,
+    "assigned_label": [
+      "Geography",
+      "Hydrology"
+    ],
+    "majority_global": 10,
+    "majority_pct": 33.1,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 98,
+        "pct": 33.1
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 91,
+        "pct": 30.7
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 79,
+        "pct": 26.7
+      },
+      {
+        "global_cluster": 0,
+        "label": [
+          "Physical_Usage",
+          "Culinary_Solvent"
+        ],
+        "count": 19,
+        "pct": 6.4
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 4,
+        "pct": 1.4
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 3,
+        "pct": 1.0
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 2,
+        "pct": 0.7
+      }
+    ]
+  },
+  "republican_L1": {
+    "dynasty": "republican",
+    "local_cluster": 1,
+    "total_sentences": 510,
+    "assigned_label": [
+      "Military",
+      "Naval"
+    ],
+    "majority_global": 3,
+    "majority_pct": 90.8,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 3,
+        "label": [
+          "Military",
+          "Naval"
+        ],
+        "count": 463,
+        "pct": 90.8
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 46,
+        "pct": 9.0
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 1,
+        "pct": 0.2
+      }
+    ]
+  },
+  "republican_L2": {
+    "dynasty": "republican",
+    "local_cluster": 2,
+    "total_sentences": 522,
+    "assigned_label": [
+      "Literary",
+      "Allusion"
+    ],
+    "majority_global": 6,
+    "majority_pct": 63.8,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 333,
+        "pct": 63.8
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 165,
+        "pct": 31.6
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 23,
+        "pct": 4.4
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 1,
+        "pct": 0.2
+      }
+    ]
+  },
+  "republican_L3": {
+    "dynasty": "republican",
+    "local_cluster": 3,
+    "total_sentences": 283,
+    "assigned_label": [
+      "Literary",
+      "Imagery"
+    ],
+    "majority_global": 9,
+    "majority_pct": 90.5,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 256,
+        "pct": 90.5
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 13,
+        "pct": 4.6
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 6,
+        "pct": 2.1
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 4,
+        "pct": 1.4
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 2,
+        "pct": 0.7
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 1,
+        "pct": 0.4
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 1,
+        "pct": 0.4
+      }
+    ]
+  },
+  "republican_L4": {
+    "dynasty": "republican",
+    "local_cluster": 4,
+    "total_sentences": 217,
+    "assigned_label": [
+      "Cosmology",
+      "Water_Fire"
+    ],
+    "majority_global": 1,
+    "majority_pct": 97.7,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 212,
+        "pct": 97.7
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 3,
+        "pct": 1.4
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 1,
+        "pct": 0.5
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 1,
+        "pct": 0.5
+      }
+    ]
+  },
+  "republican_L5": {
+    "dynasty": "republican",
+    "local_cluster": 5,
+    "total_sentences": 264,
+    "assigned_label": [
+      "Physical_Usage",
+      "Culinary_Solvent"
+    ],
+    "majority_global": 0,
+    "majority_pct": 95.8,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 0,
+        "label": [
+          "Physical_Usage",
+          "Culinary_Solvent"
+        ],
+        "count": 253,
+        "pct": 95.8
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 9,
+        "pct": 3.4
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 1,
+        "pct": 0.4
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 1,
+        "pct": 0.4
+      }
+    ]
+  },
+  "republican_L6": {
+    "dynasty": "republican",
+    "local_cluster": 6,
+    "total_sentences": 538,
+    "assigned_label": [
+      "Geography",
+      "River_Name"
+    ],
+    "majority_global": 7,
+    "majority_pct": 77.7,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 418,
+        "pct": 77.7
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 101,
+        "pct": 18.8
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 10,
+        "pct": 1.9
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 6,
+        "pct": 1.1
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 3,
+        "pct": 0.6
+      }
+    ]
+  },
+  "republican_L7": {
+    "dynasty": "republican",
+    "local_cluster": 7,
+    "total_sentences": 221,
+    "assigned_label": [
+      "Geography",
+      "River_Name"
+    ],
+    "majority_global": 7,
+    "majority_pct": 94.6,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 209,
+        "pct": 94.6
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 6,
+        "pct": 2.7
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 4,
+        "pct": 1.8
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 2,
+        "pct": 0.9
+      }
+    ]
+  },
+  "republican_L8": {
+    "dynasty": "republican",
+    "local_cluster": 8,
+    "total_sentences": 545,
+    "assigned_label": [
+      "Body_Medical",
+      "Pathology"
+    ],
+    "majority_global": 2,
+    "majority_pct": 87.0,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 474,
+        "pct": 87.0
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 22,
+        "pct": 4.0
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 20,
+        "pct": 3.7
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 20,
+        "pct": 3.7
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 5,
+        "pct": 0.9
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 3,
+        "pct": 0.6
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 1,
+        "pct": 0.2
+      }
+    ]
+  },
+  "republican_L9": {
+    "dynasty": "republican",
+    "local_cluster": 9,
+    "total_sentences": 254,
+    "assigned_label": [
+      "Military",
+      "Naval"
+    ],
+    "majority_global": 3,
+    "majority_pct": 95.3,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 3,
+        "label": [
+          "Military",
+          "Naval"
+        ],
+        "count": 242,
+        "pct": 95.3
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 9,
+        "pct": 3.5
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 3,
+        "pct": 1.2
+      }
+    ]
+  },
+  "republican_L10": {
+    "dynasty": "republican",
+    "local_cluster": 10,
+    "total_sentences": 1909,
+    "assigned_label": [
+      "Geomancy",
+      "Fengshui"
+    ],
+    "majority_global": 11,
+    "majority_pct": 37.9,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 724,
+        "pct": 37.9
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 457,
+        "pct": 23.9
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 376,
+        "pct": 19.7
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 259,
+        "pct": 13.6
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 42,
+        "pct": 2.2
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 31,
+        "pct": 1.6
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 14,
+        "pct": 0.7
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 3,
+        "pct": 0.2
+      },
+      {
+        "global_cluster": 3,
+        "label": [
+          "Military",
+          "Naval"
+        ],
+        "count": 2,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 1,
+        "pct": 0.1
+      }
+    ]
+  },
+  "republican_L11": {
+    "dynasty": "republican",
+    "local_cluster": 11,
+    "total_sentences": 1304,
+    "assigned_label": [
+      "Literary",
+      "Imagery"
+    ],
+    "majority_global": 9,
+    "majority_pct": 71.5,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 933,
+        "pct": 71.5
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 126,
+        "pct": 9.7
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 80,
+        "pct": 6.1
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 69,
+        "pct": 5.3
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 58,
+        "pct": 4.4
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 36,
+        "pct": 2.8
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 1,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 1,
+        "pct": 0.1
+      }
+    ]
+  },
+  "republican_L12": {
+    "dynasty": "republican",
+    "local_cluster": 12,
+    "total_sentences": 2710,
+    "assigned_label": [
+      "Physical_Usage",
+      "General"
+    ],
+    "majority_global": 8,
+    "majority_pct": 46.3,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 1254,
+        "pct": 46.3
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 609,
+        "pct": 22.5
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 386,
+        "pct": 14.2
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 248,
+        "pct": 9.2
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 80,
+        "pct": 3.0
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 56,
+        "pct": 2.1
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 38,
+        "pct": 1.4
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 25,
+        "pct": 0.9
+      },
+      {
+        "global_cluster": 0,
+        "label": [
+          "Physical_Usage",
+          "Culinary_Solvent"
+        ],
+        "count": 8,
+        "pct": 0.3
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 6,
+        "pct": 0.2
+      }
+    ]
+  },
+  "republican_L13": {
+    "dynasty": "republican",
+    "local_cluster": 13,
+    "total_sentences": 1061,
+    "assigned_label": [
+      "Physical_Usage",
+      "General"
+    ],
+    "majority_global": 8,
+    "majority_pct": 31.9,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 338,
+        "pct": 31.9
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 335,
+        "pct": 31.6
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 217,
+        "pct": 20.5
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 138,
+        "pct": 13.0
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 17,
+        "pct": 1.6
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 14,
+        "pct": 1.3
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 1,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 1,
+        "pct": 0.1
+      }
+    ]
+  },
+  "songyuan_L0": {
+    "dynasty": "songyuan",
+    "local_cluster": 0,
+    "total_sentences": 2369,
+    "assigned_label": [
+      "Geomancy",
+      "Fengshui"
+    ],
+    "majority_global": 11,
+    "majority_pct": 65.0,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 1541,
+        "pct": 65.0
+      },
+      {
+        "global_cluster": 3,
+        "label": [
+          "Military",
+          "Naval"
+        ],
+        "count": 632,
+        "pct": 26.7
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 130,
+        "pct": 5.5
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 39,
+        "pct": 1.6
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 17,
+        "pct": 0.7
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 6,
+        "pct": 0.3
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 3,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 1,
+        "pct": 0.0
+      }
+    ]
+  },
+  "songyuan_L1": {
+    "dynasty": "songyuan",
+    "local_cluster": 1,
+    "total_sentences": 3285,
+    "assigned_label": [
+      "Physical_Usage",
+      "Culinary_Solvent"
+    ],
+    "majority_global": 0,
+    "majority_pct": 67.9,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 0,
+        "label": [
+          "Physical_Usage",
+          "Culinary_Solvent"
+        ],
+        "count": 2232,
+        "pct": 67.9
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 865,
+        "pct": 26.3
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 145,
+        "pct": 4.4
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 23,
+        "pct": 0.7
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 18,
+        "pct": 0.5
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 2,
+        "pct": 0.1
+      }
+    ]
+  },
+  "songyuan_L2": {
+    "dynasty": "songyuan",
+    "local_cluster": 2,
+    "total_sentences": 2466,
+    "assigned_label": [
+      "Body_Medical",
+      "Pathology"
+    ],
+    "majority_global": 2,
+    "majority_pct": 85.4,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 2107,
+        "pct": 85.4
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 184,
+        "pct": 7.5
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 124,
+        "pct": 5.0
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 21,
+        "pct": 0.9
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 18,
+        "pct": 0.7
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 5,
+        "pct": 0.2
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 4,
+        "pct": 0.2
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 3,
+        "pct": 0.1
+      }
+    ]
+  },
+  "songyuan_L3": {
+    "dynasty": "songyuan",
+    "local_cluster": 3,
+    "total_sentences": 2012,
+    "assigned_label": [
+      "Physical_Usage",
+      "Culinary_Solvent"
+    ],
+    "majority_global": 0,
+    "majority_pct": 100.0,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 0,
+        "label": [
+          "Physical_Usage",
+          "Culinary_Solvent"
+        ],
+        "count": 2012,
+        "pct": 100.0
+      }
+    ]
+  },
+  "songyuan_L4": {
+    "dynasty": "songyuan",
+    "local_cluster": 4,
+    "total_sentences": 3577,
+    "assigned_label": [
+      "NOISE",
+      "OCR_Error"
+    ],
+    "majority_global": 5,
+    "majority_pct": 67.4,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 2411,
+        "pct": 67.4
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 570,
+        "pct": 15.9
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 332,
+        "pct": 9.3
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 245,
+        "pct": 6.8
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 13,
+        "pct": 0.4
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 3,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 3,
+        "label": [
+          "Military",
+          "Naval"
+        ],
+        "count": 2,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 0,
+        "label": [
+          "Physical_Usage",
+          "Culinary_Solvent"
+        ],
+        "count": 1,
+        "pct": 0.0
+      }
+    ]
+  },
+  "songyuan_L5": {
+    "dynasty": "songyuan",
+    "local_cluster": 5,
+    "total_sentences": 2071,
+    "assigned_label": [
+      "Literary",
+      "Imagery"
+    ],
+    "majority_global": 9,
+    "majority_pct": 73.4,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 1520,
+        "pct": 73.4
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 245,
+        "pct": 11.8
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 195,
+        "pct": 9.4
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 53,
+        "pct": 2.6
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 31,
+        "pct": 1.5
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 18,
+        "pct": 0.9
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 5,
+        "pct": 0.2
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 4,
+        "pct": 0.2
+      }
+    ]
+  },
+  "songyuan_L6": {
+    "dynasty": "songyuan",
+    "local_cluster": 6,
+    "total_sentences": 2157,
+    "assigned_label": [
+      "Cosmology",
+      "Wuxing"
+    ],
+    "majority_global": 4,
+    "majority_pct": 88.0,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 1898,
+        "pct": 88.0
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 118,
+        "pct": 5.5
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 93,
+        "pct": 4.3
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 20,
+        "pct": 0.9
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 9,
+        "pct": 0.4
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 7,
+        "pct": 0.3
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 6,
+        "pct": 0.3
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 6,
+        "pct": 0.3
+      }
+    ]
+  },
+  "songyuan_L7": {
+    "dynasty": "songyuan",
+    "local_cluster": 7,
+    "total_sentences": 1883,
+    "assigned_label": [
+      "Cosmology",
+      "Water_Fire"
+    ],
+    "majority_global": 1,
+    "majority_pct": 48.8,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 918,
+        "pct": 48.8
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 815,
+        "pct": 43.3
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 93,
+        "pct": 4.9
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 30,
+        "pct": 1.6
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 18,
+        "pct": 1.0
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 5,
+        "pct": 0.3
+      },
+      {
+        "global_cluster": 3,
+        "label": [
+          "Military",
+          "Naval"
+        ],
+        "count": 2,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 0,
+        "label": [
+          "Physical_Usage",
+          "Culinary_Solvent"
+        ],
+        "count": 1,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 1,
+        "pct": 0.1
+      }
+    ]
+  },
+  "songyuan_L8": {
+    "dynasty": "songyuan",
+    "local_cluster": 8,
+    "total_sentences": 1318,
+    "assigned_label": [
+      "Cosmology",
+      "Water_Fire"
+    ],
+    "majority_global": 1,
+    "majority_pct": 54.7,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 721,
+        "pct": 54.7
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 253,
+        "pct": 19.2
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 144,
+        "pct": 10.9
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 130,
+        "pct": 9.9
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 54,
+        "pct": 4.1
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 5,
+        "pct": 0.4
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 5,
+        "pct": 0.4
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 4,
+        "pct": 0.3
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 1,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 1,
+        "pct": 0.1
+      }
+    ]
+  },
+  "songyuan_L9": {
+    "dynasty": "songyuan",
+    "local_cluster": 9,
+    "total_sentences": 6531,
+    "assigned_label": [
+      "Physical_Usage",
+      "General"
+    ],
+    "majority_global": 8,
+    "majority_pct": 56.3,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 3677,
+        "pct": 56.3
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 2314,
+        "pct": 35.4
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 225,
+        "pct": 3.4
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 171,
+        "pct": 2.6
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 78,
+        "pct": 1.2
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 42,
+        "pct": 0.6
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 9,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 8,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 6,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 1,
+        "pct": 0.0
+      }
+    ]
+  },
+  "songyuan_L10": {
+    "dynasty": "songyuan",
+    "local_cluster": 10,
+    "total_sentences": 4902,
+    "assigned_label": [
+      "Literary",
+      "Allusion"
+    ],
+    "majority_global": 6,
+    "majority_pct": 48.0,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 2353,
+        "pct": 48.0
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 1105,
+        "pct": 22.5
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 823,
+        "pct": 16.8
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 425,
+        "pct": 8.7
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 181,
+        "pct": 3.7
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 10,
+        "pct": 0.2
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 5,
+        "pct": 0.1
+      }
+    ]
+  },
+  "songyuan_L11": {
+    "dynasty": "songyuan",
+    "local_cluster": 11,
+    "total_sentences": 7160,
+    "assigned_label": [
+      "Physical_Usage",
+      "General"
+    ],
+    "majority_global": 8,
+    "majority_pct": 46.3,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 3314,
+        "pct": 46.3
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 1627,
+        "pct": 22.7
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 1469,
+        "pct": 20.5
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 363,
+        "pct": 5.1
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 256,
+        "pct": 3.6
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 69,
+        "pct": 1.0
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 38,
+        "pct": 0.5
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 13,
+        "pct": 0.2
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 7,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 3,
+        "label": [
+          "Military",
+          "Naval"
+        ],
+        "count": 4,
+        "pct": 0.1
+      }
+    ]
+  },
+  "songyuan_L12": {
+    "dynasty": "songyuan",
+    "local_cluster": 12,
+    "total_sentences": 4859,
+    "assigned_label": [
+      "Geomancy",
+      "Fengshui"
+    ],
+    "majority_global": 11,
+    "majority_pct": 48.4,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 2354,
+        "pct": 48.4
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 1869,
+        "pct": 38.5
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 352,
+        "pct": 7.2
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 131,
+        "pct": 2.7
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 70,
+        "pct": 1.4
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 58,
+        "pct": 1.2
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 8,
+        "pct": 0.2
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 7,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 3,
+        "label": [
+          "Military",
+          "Naval"
+        ],
+        "count": 5,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 3,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 2,
+        "pct": 0.0
+      }
+    ]
+  },
+  "songyuan_L13": {
+    "dynasty": "songyuan",
+    "local_cluster": 13,
+    "total_sentences": 5295,
+    "assigned_label": [
+      "Geography",
+      "River_Name"
+    ],
+    "majority_global": 7,
+    "majority_pct": 64.3,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 3406,
+        "pct": 64.3
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 1659,
+        "pct": 31.3
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 132,
+        "pct": 2.5
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 57,
+        "pct": 1.1
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 39,
+        "pct": 0.7
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 1,
+        "pct": 0.0
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 1,
+        "pct": 0.0
+      }
+    ]
+  },
+  "songyuan_L14": {
+    "dynasty": "songyuan",
+    "local_cluster": 14,
+    "total_sentences": 5522,
+    "assigned_label": [
+      "Literary",
+      "Imagery"
+    ],
+    "majority_global": 9,
+    "majority_pct": 89.5,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 4940,
+        "pct": 89.5
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 338,
+        "pct": 6.1
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 75,
+        "pct": 1.4
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 74,
+        "pct": 1.3
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 61,
+        "pct": 1.1
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 34,
+        "pct": 0.6
+      }
+    ]
+  },
+  "suitang_L0": {
+    "dynasty": "suitang",
+    "local_cluster": 0,
+    "total_sentences": 626,
+    "assigned_label": [
+      "Body_Medical",
+      "Pathology"
+    ],
+    "majority_global": 2,
+    "majority_pct": 89.8,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 562,
+        "pct": 89.8
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 19,
+        "pct": 3.0
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 17,
+        "pct": 2.7
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 13,
+        "pct": 2.1
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 7,
+        "pct": 1.1
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 5,
+        "pct": 0.8
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 2,
+        "pct": 0.3
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 1,
+        "pct": 0.2
+      }
+    ]
+  },
+  "suitang_L1": {
+    "dynasty": "suitang",
+    "local_cluster": 1,
+    "total_sentences": 501,
+    "assigned_label": [
+      "Physical_Usage",
+      "Culinary_Solvent"
+    ],
+    "majority_global": 0,
+    "majority_pct": 56.3,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 0,
+        "label": [
+          "Physical_Usage",
+          "Culinary_Solvent"
+        ],
+        "count": 282,
+        "pct": 56.3
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 181,
+        "pct": 36.1
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 31,
+        "pct": 6.2
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 6,
+        "pct": 1.2
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 1,
+        "pct": 0.2
+      }
+    ]
+  },
+  "suitang_L2": {
+    "dynasty": "suitang",
+    "local_cluster": 2,
+    "total_sentences": 463,
+    "assigned_label": [
+      "Geography",
+      "River_Name"
+    ],
+    "majority_global": 7,
+    "majority_pct": 30.0,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 139,
+        "pct": 30.0
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 105,
+        "pct": 22.7
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 78,
+        "pct": 16.8
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 72,
+        "pct": 15.6
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 51,
+        "pct": 11.0
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 7,
+        "pct": 1.5
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 7,
+        "pct": 1.5
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 3,
+        "pct": 0.6
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 1,
+        "pct": 0.2
+      }
+    ]
+  },
+  "suitang_L3": {
+    "dynasty": "suitang",
+    "local_cluster": 3,
+    "total_sentences": 487,
+    "assigned_label": [
+      "Physical_Usage",
+      "Culinary_Solvent"
+    ],
+    "majority_global": 0,
+    "majority_pct": 100.0,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 0,
+        "label": [
+          "Physical_Usage",
+          "Culinary_Solvent"
+        ],
+        "count": 487,
+        "pct": 100.0
+      }
+    ]
+  },
+  "suitang_L4": {
+    "dynasty": "suitang",
+    "local_cluster": 4,
+    "total_sentences": 415,
+    "assigned_label": [
+      "Literary",
+      "Imagery"
+    ],
+    "majority_global": 9,
+    "majority_pct": 88.7,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 368,
+        "pct": 88.7
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 28,
+        "pct": 6.7
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 14,
+        "pct": 3.4
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 5,
+        "pct": 1.2
+      }
+    ]
+  },
+  "suitang_L5": {
+    "dynasty": "suitang",
+    "local_cluster": 5,
+    "total_sentences": 556,
+    "assigned_label": [
+      "Cosmology",
+      "Water_Fire"
+    ],
+    "majority_global": 1,
+    "majority_pct": 96.8,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 538,
+        "pct": 96.8
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 9,
+        "pct": 1.6
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 4,
+        "pct": 0.7
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 3,
+        "pct": 0.5
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 1,
+        "pct": 0.2
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 1,
+        "pct": 0.2
+      }
+    ]
+  },
+  "suitang_L6": {
+    "dynasty": "suitang",
+    "local_cluster": 6,
+    "total_sentences": 635,
+    "assigned_label": [
+      "Geomancy",
+      "Fengshui"
+    ],
+    "majority_global": 11,
+    "majority_pct": 50.1,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 318,
+        "pct": 50.1
+      },
+      {
+        "global_cluster": 3,
+        "label": [
+          "Military",
+          "Naval"
+        ],
+        "count": 239,
+        "pct": 37.6
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 32,
+        "pct": 5.0
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 19,
+        "pct": 3.0
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 12,
+        "pct": 1.9
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 9,
+        "pct": 1.4
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 5,
+        "pct": 0.8
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 1,
+        "pct": 0.2
+      }
+    ]
+  },
+  "suitang_L7": {
+    "dynasty": "suitang",
+    "local_cluster": 7,
+    "total_sentences": 4421,
+    "assigned_label": [
+      "Physical_Usage",
+      "General"
+    ],
+    "majority_global": 8,
+    "majority_pct": 42.1,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 1861,
+        "pct": 42.1
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 1075,
+        "pct": 24.3
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 655,
+        "pct": 14.8
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 452,
+        "pct": 10.2
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 289,
+        "pct": 6.5
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 80,
+        "pct": 1.8
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 6,
+        "pct": 0.1
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 3,
+        "pct": 0.1
+      }
+    ]
+  },
+  "suitang_L8": {
+    "dynasty": "suitang",
+    "local_cluster": 8,
+    "total_sentences": 2456,
+    "assigned_label": [
+      "Geography",
+      "River_Name"
+    ],
+    "majority_global": 7,
+    "majority_pct": 66.4,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 1632,
+        "pct": 66.4
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 724,
+        "pct": 29.5
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 83,
+        "pct": 3.4
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 8,
+        "pct": 0.3
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 7,
+        "pct": 0.3
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 1,
+        "pct": 0.0
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 1,
+        "pct": 0.0
+      }
+    ]
+  },
+  "suitang_L9": {
+    "dynasty": "suitang",
+    "local_cluster": 9,
+    "total_sentences": 1828,
+    "assigned_label": [
+      "NOISE",
+      "OCR_Error"
+    ],
+    "majority_global": 5,
+    "majority_pct": 34.4,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 629,
+        "pct": 34.4
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 456,
+        "pct": 24.9
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 363,
+        "pct": 19.9
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 224,
+        "pct": 12.3
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 121,
+        "pct": 6.6
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 22,
+        "pct": 1.2
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 10,
+        "pct": 0.5
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 3,
+        "pct": 0.2
+      }
+    ]
+  },
+  "suitang_L10": {
+    "dynasty": "suitang",
+    "local_cluster": 10,
+    "total_sentences": 2507,
+    "assigned_label": [
+      "Cosmology",
+      "Wuxing"
+    ],
+    "majority_global": 4,
+    "majority_pct": 26.3,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 660,
+        "pct": 26.3
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 622,
+        "pct": 24.8
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 594,
+        "pct": 23.7
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 494,
+        "pct": 19.7
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 58,
+        "pct": 2.3
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 40,
+        "pct": 1.6
+      },
+      {
+        "global_cluster": 3,
+        "label": [
+          "Military",
+          "Naval"
+        ],
+        "count": 14,
+        "pct": 0.6
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 14,
+        "pct": 0.6
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 4,
+        "pct": 0.2
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 4,
+        "pct": 0.2
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 3,
+        "pct": 0.1
+      }
+    ]
+  },
+  "suitang_L11": {
+    "dynasty": "suitang",
+    "local_cluster": 11,
+    "total_sentences": 1842,
+    "assigned_label": [
+      "Geography",
+      "Hydrology"
+    ],
+    "majority_global": 10,
+    "majority_pct": 46.9,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 864,
+        "pct": 46.9
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 468,
+        "pct": 25.4
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 225,
+        "pct": 12.2
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 211,
+        "pct": 11.5
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 62,
+        "pct": 3.4
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 8,
+        "pct": 0.4
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 4,
+        "pct": 0.2
+      }
+    ]
+  },
+  "weijin_L0": {
+    "dynasty": "weijin",
+    "local_cluster": 0,
+    "total_sentences": 153,
+    "assigned_label": [
+      "Body_Medical",
+      "Pathology"
+    ],
+    "majority_global": 2,
+    "majority_pct": 89.5,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 137,
+        "pct": 89.5
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 9,
+        "pct": 5.9
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 5,
+        "pct": 3.3
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 2,
+        "pct": 1.3
+      }
+    ]
+  },
+  "weijin_L1": {
+    "dynasty": "weijin",
+    "local_cluster": 1,
+    "total_sentences": 106,
+    "assigned_label": [
+      "Geography",
+      "River_Name"
+    ],
+    "majority_global": 7,
+    "majority_pct": 97.2,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 103,
+        "pct": 97.2
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 2,
+        "pct": 1.9
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 1,
+        "pct": 0.9
+      }
+    ]
+  },
+  "weijin_L2": {
+    "dynasty": "weijin",
+    "local_cluster": 2,
+    "total_sentences": 341,
+    "assigned_label": [
+      "Geography",
+      "River_Name"
+    ],
+    "majority_global": 7,
+    "majority_pct": 52.2,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 178,
+        "pct": 52.2
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 162,
+        "pct": 47.5
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 1,
+        "pct": 0.3
+      }
+    ]
+  },
+  "weijin_L3": {
+    "dynasty": "weijin",
+    "local_cluster": 3,
+    "total_sentences": 257,
+    "assigned_label": [
+      "Physical_Usage",
+      "Culinary_Solvent"
+    ],
+    "majority_global": 0,
+    "majority_pct": 49.8,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 0,
+        "label": [
+          "Physical_Usage",
+          "Culinary_Solvent"
+        ],
+        "count": 128,
+        "pct": 49.8
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 111,
+        "pct": 43.2
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 15,
+        "pct": 5.8
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 1,
+        "pct": 0.4
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 1,
+        "pct": 0.4
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 1,
+        "pct": 0.4
+      }
+    ]
+  },
+  "weijin_L4": {
+    "dynasty": "weijin",
+    "local_cluster": 4,
+    "total_sentences": 243,
+    "assigned_label": [
+      "Cosmology",
+      "Water_Fire"
+    ],
+    "majority_global": 1,
+    "majority_pct": 75.7,
+    "is_mixed": false,
+    "distribution": [
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 184,
+        "pct": 75.7
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 34,
+        "pct": 14.0
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 11,
+        "pct": 4.5
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 8,
+        "pct": 3.3
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 2,
+        "pct": 0.8
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 2,
+        "pct": 0.8
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 2,
+        "pct": 0.8
+      }
+    ]
+  },
+  "weijin_L5": {
+    "dynasty": "weijin",
+    "local_cluster": 5,
+    "total_sentences": 166,
+    "assigned_label": [
+      "Geography",
+      "River_Name"
+    ],
+    "majority_global": 7,
+    "majority_pct": 57.2,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 95,
+        "pct": 57.2
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 71,
+        "pct": 42.8
+      }
+    ]
+  },
+  "weijin_L6": {
+    "dynasty": "weijin",
+    "local_cluster": 6,
+    "total_sentences": 1335,
+    "assigned_label": [
+      "Physical_Usage",
+      "General"
+    ],
+    "majority_global": 8,
+    "majority_pct": 52.9,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 706,
+        "pct": 52.9
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 300,
+        "pct": 22.5
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 129,
+        "pct": 9.7
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 109,
+        "pct": 8.2
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 42,
+        "pct": 3.1
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 35,
+        "pct": 2.6
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 10,
+        "pct": 0.7
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 4,
+        "pct": 0.3
+      }
+    ]
+  },
+  "weijin_L7": {
+    "dynasty": "weijin",
+    "local_cluster": 7,
+    "total_sentences": 879,
+    "assigned_label": [
+      "Geomancy",
+      "Fengshui"
+    ],
+    "majority_global": 11,
+    "majority_pct": 34.2,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 301,
+        "pct": 34.2
+      },
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 201,
+        "pct": 22.9
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 185,
+        "pct": 21.0
+      },
+      {
+        "global_cluster": 3,
+        "label": [
+          "Military",
+          "Naval"
+        ],
+        "count": 67,
+        "pct": 7.6
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 50,
+        "pct": 5.7
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 39,
+        "pct": 4.4
+      },
+      {
+        "global_cluster": 1,
+        "label": [
+          "Cosmology",
+          "Water_Fire"
+        ],
+        "count": 14,
+        "pct": 1.6
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 12,
+        "pct": 1.4
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 8,
+        "pct": 0.9
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 2,
+        "pct": 0.2
+      }
+    ]
+  },
+  "weijin_L8": {
+    "dynasty": "weijin",
+    "local_cluster": 8,
+    "total_sentences": 845,
+    "assigned_label": [
+      "Geography",
+      "Hydrology"
+    ],
+    "majority_global": 10,
+    "majority_pct": 50.2,
+    "is_mixed": true,
+    "distribution": [
+      {
+        "global_cluster": 10,
+        "label": [
+          "Geography",
+          "Hydrology"
+        ],
+        "count": 424,
+        "pct": 50.2
+      },
+      {
+        "global_cluster": 5,
+        "label": [
+          "NOISE",
+          "OCR_Error"
+        ],
+        "count": 165,
+        "pct": 19.5
+      },
+      {
+        "global_cluster": 6,
+        "label": [
+          "Literary",
+          "Allusion"
+        ],
+        "count": 152,
+        "pct": 18.0
+      },
+      {
+        "global_cluster": 11,
+        "label": [
+          "Geomancy",
+          "Fengshui"
+        ],
+        "count": 49,
+        "pct": 5.8
+      },
+      {
+        "global_cluster": 4,
+        "label": [
+          "Cosmology",
+          "Wuxing"
+        ],
+        "count": 20,
+        "pct": 2.4
+      },
+      {
+        "global_cluster": 8,
+        "label": [
+          "Physical_Usage",
+          "General"
+        ],
+        "count": 14,
+        "pct": 1.7
+      },
+      {
+        "global_cluster": 9,
+        "label": [
+          "Literary",
+          "Imagery"
+        ],
+        "count": 12,
+        "pct": 1.4
+      },
+      {
+        "global_cluster": 3,
+        "label": [
+          "Military",
+          "Naval"
+        ],
+        "count": 5,
+        "pct": 0.6
+      },
+      {
+        "global_cluster": 7,
+        "label": [
+          "Geography",
+          "River_Name"
+        ],
+        "count": 3,
+        "pct": 0.4
+      },
+      {
+        "global_cluster": 2,
+        "label": [
+          "Body_Medical",
+          "Pathology"
+        ],
+        "count": 1,
+        "pct": 0.1
+      }
+    ]
+  }
+}

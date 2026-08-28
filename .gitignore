@@ -1,0 +1,20 @@
+# Python and local editor files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.vscode/
+
+# Large generated embedding and intermediate data
+pipeline_runs/*/stage_outputs/01_keyword_embeddings/
+pipeline_runs/*/stage_outputs/02_cleaned_embeddings/
+pipeline_runs/*/stage_outputs/03_stratified_sampling_output_cleaned/
+pipeline_runs/*/stage_outputs/04_cleaned_output/
+*.jsonl
+*.pkl
+
+# Keep source-control metadata small and reproducible
+pipeline_runs/*/logs/
+0331_parameter_test_output/runs/
+*.tmp
+*.bak

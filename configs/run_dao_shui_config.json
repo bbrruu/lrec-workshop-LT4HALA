@@ -1,0 +1,28 @@
+{
+  "run_name": "run_dao_shui",
+  "chars": [
+    "道",
+    "水"
+  ],
+  "dynasties": [],
+  "start_stage": "postprocess",
+  "end_stage": "postprocess",
+  "baseline": {
+    "local": {
+      "k": 20,
+      "merge": 0.95,
+      "split": 0.3
+    },
+    "global": {
+      "k": 20,
+      "merge": 0.95,
+      "split": 0.1,
+      "sub_k": 6
+    }
+  },
+  "semantic": {
+    "hand_label_version": "auto",
+    "hand_label_map_json": "",
+    "label_map_json": "label_templates/dao_shui_labels.json"
+  }
+}

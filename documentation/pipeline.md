@@ -72,6 +72,8 @@ For each character:
 
 Global labels are defined in [`../configs/dao_shui_labels.json`](../configs/dao_shui_labels.json). Local labels are derived for each `(dynasty, Local_Cluster)` pair by joining Local and Global assignments and inheriting the majority Global label. The mapping reports preserve the per-cluster distribution and identify mixed clusters.
 
+The paper's "Human-in-the-Loop Semantic Annotation" description (Section 3.2) covers this inheritance step implicitly: the core-sentence LLM/human annotation was performed once, on the Global (joint) clusters only. Local clusters were not separately annotated from their own core sentences; every Local cluster label shown in the Local figures is inherited from a Global label via the majority-vote procedure above, not an independent annotation. The `"local"` block in [`../configs/dao_shui_labels.json`](../configs/dao_shui_labels.json) is an unused placeholder for this reason — only the `"joint"` block is read by the pipeline.
+
 ## Source and Reuse Restrictions
 
 The corpus is obtained from the Chinese Text Project. This release does not redistribute a complete corpus copy. Users must obtain the source data and confirm the current access and redistribution terms before recreating occurrence-level outputs. Model weights are also subject to their own distribution terms.

@@ -22,8 +22,8 @@ Full stage-by-stage detail (what each script reads/writes, parameters, and how s
 |---|---|
 | [`code/`](code/) | The 9-stage pipeline (one script per stage) plus `pipeline.py` (orchestrator) and `pipeline_common.py` (shared helpers) |
 | [`configs/`](configs/) | Run parameters and Global cluster semantic labels |
-| [`results/hand/`](results/hand/) | Global, Local, and annotated results for 手 |
-| [`results/water/`](results/water/) | Global, Local, and annotated results for 水 |
+| [`results/hand/`](results/shou/) | Global, Local, and annotated results for 手 |
+| [`results/water/`](results/shui/) | Global, Local, and annotated results for 水 |
 | [`results/dao/`](results/dao/) | Global, Local, and annotated results for 道 |
 | [`results/sensitivity_analysis/`](results/sensitivity_analysis/) | Parameter sweep backing the K/merge/split sensitivity analysis in Section 3.2 |
 | [`figures/`](figures/) | Figures corresponding to Figures 1–6 in the paper |

@@ -1,0 +1,126 @@
+{
+  "手": {
+    "local": {
+      "pre-qin": {
+        "0": ["Text_Culture", "Ceremony"],
+        "1": ["Body_Medical", "Meridian"],
+        "2": ["Physical_Action", "General"],
+        "3": ["Body_Medical", "Limbs"],
+        "4": ["Social_Interaction", "Contact"],
+        "5": ["Text_Culture", "Ritual_Hold"]
+      },
+      "qinhan": {
+        "0": ["Text_Culture", "Etymology"],
+        "1": ["Body_Medical", "Limbs"],
+        "2": ["Body_Medical", "Symptom"],
+        "3": ["NOISE", "OCR_Error"],
+        "4": ["Body_Medical", "Symptom"],
+        "5": ["Text_Culture", "Divination"],
+        "6": ["Physical_Action", "Holding"]
+      },
+      "weijin": {
+        "0": ["Power_Skill", "Mastery"],
+        "1": ["Body_Medical", "Limbs"],
+        "2": ["Physical_Action", "Combat"],
+        "3": ["Text_Culture", "Edict"],
+        "4": ["Social_Interaction", "Poetry"],
+        "5": ["Social_Interaction", "Contact"],
+        "6": ["Physical_Action", "Instrumental"]
+      },
+      "suitang": {
+        "0": ["Physical_Action", "Holding"],
+        "1": ["Body_Medical", "Meridian"],
+        "2": ["Social_Interaction", "Metaphor"],
+        "3": ["NOISE", "OCR_Error"],
+        "4": ["Social_Interaction", "Poetry"],
+        "5": ["Body_Medical", "Symptom"],
+        "6": ["Social_Interaction", "Poetry"],
+        "7": ["Text_Culture", "Edict"],
+        "8": ["Physical_Action", "Holding"],
+        "9": ["Physical_Action", "Posture"],
+        "10": ["Text_Culture", "Observation"],
+        "11": ["Physical_Action", "Bimanual"]
+      },
+      "songyuan": {
+        "0": ["Power_Skill", "Calligraphy"],
+        "1": ["Body_Medical", "Symptom"],
+        "2": ["NOISE", "OCR_Error"],
+        "3": ["Grammar_Suffix", "Occupation"],
+        "4": ["Body_Medical", "Meridian"],
+        "5": ["Text_Culture", "Edict"],
+        "6": ["Body_Medical", "Symptom"],
+        "7": ["Physical_Action", "Holding"],
+        "8": ["Power_Skill", "Agency"],
+        "9": ["Physical_Action", "Instrumental"],
+        "10": ["Power_Skill", "Mastery"],
+        "11": ["Social_Interaction", "Contact"]
+      },
+      "ming": {
+        "0": ["NOISE", "OCR_Error"],
+        "1": ["Body_Medical", "Symptom"],
+        "2": ["Body_Medical", "Meridian"],
+        "3": ["Power_Skill", "Mastery_Art"],
+        "4": ["Physical_Action", "Combat_Hold"],
+        "5": ["Social_Interaction", "Connection"],
+        "6": ["Text_Culture", "Letter"],
+        "7": ["Physical_Action", "Take_Action"],
+        "8": ["Power_Skill", "Control"],
+        "9": ["Physical_Action", "Instrumental"],
+        "10": ["Physical_Action", "Spatial"],
+        "11": ["Grammar_Suffix", "Occupation"],
+        "12": ["Physical_Action", "Posture"]
+      },
+      "qing": {
+        "0": ["Body_Medical", "Symptom"],
+        "1": ["Body_Medical", "Meridian"],
+        "2": ["Power_Skill", "Authorship"],
+        "3": ["Text_Culture", "Letter"],
+        "4": ["Grammar_Suffix", "Occupation"],
+        "5": ["Physical_Action", "Spatial"],
+        "6": ["Power_Skill", "Subordinate"],
+        "7": ["Physical_Action", "Holding"],
+        "8": ["Physical_Action", "Take_Action"],
+        "9": ["Physical_Action", "Instrumental"],
+        "10": ["Social_Interaction", "Contact"],
+        "11": ["Physical_Action", "Movement"],
+        "12": ["Body_Medical", "Bimanual"],
+        "13": ["Power_Skill", "Capability_Control"]
+      },
+      "republican": {
+        "0": ["Text_Culture", "Writing"],
+        "1": ["Body_Medical", "Symptom"],
+        "2": ["Power_Skill", "Agency"],
+        "3": ["Text_Culture", "Divination"],
+        "4": ["Text_Culture", "Letter_Edict"],
+        "5": ["Power_Skill", "Possession"],
+        "6": ["Power_Skill", "Subordinate"],
+        "7": ["Power_Skill", "Strategy"],
+        "8": ["Text_Culture", "Artifact"],
+        "9": ["Grammar_Suffix", "Occupation"],
+        "10": ["Social_Interaction", "Contact_Sign"],
+        "11": ["Physical_Action", "Combat"],
+        "12": ["Physical_Action", "General"],
+        "13": ["Physical_Action", "Take_Action"]
+      }
+    },
+    "joint": {
+      "0":  ["Body_Medical", "Symptom"],
+      "1":  ["Physical_Action", "Holding"],
+      "2":  ["Body_Medical", "Meridian"],
+      "3":  ["Grammar_Suffix", "Occupation"],
+      "4":  ["Text_Culture", "Letter_Edict"],
+      "5":  ["Physical_Action", "Gesture"],
+      "6":  ["Social_Interaction", "Connection"],
+      "7":  ["Physical_Action", "Bimanual"],
+      "8":  ["Physical_Action", "Spatial"],
+      "9":  ["Physical_Action", "Take_Action"],
+      "10": ["Power_Skill", "Agency"],
+      "11": ["NOISE", "OCR_Error"],
+      "12": ["Power_Skill", "Expertise"],
+      "13": ["NOISE", "OCR_Error"],
+      "14": ["Text_Culture", "Literary"],
+      "15": ["Power_Skill", "Capability"],
+      "16": ["Physical_Action", "State"]
+    }
+  }
+}

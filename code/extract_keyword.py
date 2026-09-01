@@ -2,9 +2,6 @@
 """
 Extract keyword embeddings from CText corpus using GujiBERT.
 
-Created: 2025-01-26
-Author: Claude (Anthropic) for Bruce's LREC workshop research
-
 This script:
 1. Scans all texts in the corpus
 2. Finds sentences containing target characters (手 + 16 baseline chars)
@@ -88,7 +85,7 @@ for category, dynasties in DYNASTY_GROUPS.items():
     for dynasty in dynasties:
         DYNASTY_TO_CATEGORY[dynasty] = category
 
-# Local CText data paths
+# Local CText data paths (defaults; override with --book-data-path / --wiki-data-pattern)
 BOOK_DATA_PATH = "/mnt/md0/corpus/SinDia/ctext/data/raw/book/text_book_raw.gz"
 WIKI_DATA_PATTERN = "/mnt/md0/corpus/SinDia/ctext/data/raw/wiki/text_wiki_raw_part_*"
 
@@ -122,6 +119,10 @@ parser.add_argument('--max-texts', type=int, default=None,
                     help='Max texts to process per dynasty (for testing)')
 parser.add_argument('--resume', action='store_true',
                     help='Resume from checkpoint')
+parser.add_argument('--book-data-path', type=str, default=BOOK_DATA_PATH,
+                    help='Path to the CText book archive (text_book_raw.gz)')
+parser.add_argument('--wiki-data-pattern', type=str, default=WIKI_DATA_PATTERN,
+                    help='Glob pattern for the CText wiki archive parts')
 
 # ============================================================
 # HELPER FUNCTIONS
@@ -203,7 +204,7 @@ def read_ctext_archive(book_path: str, wiki_pattern: str) -> Dict[str, str]:
                 log(f"Found {len(members)} files in book archive")
                 
                 count = 0
-                for member in tqdm(members, desc="📚 Loading books", ncols=100, unit="file"):
+                for member in tqdm(members, desc="Loading books", ncols=100, unit="file"):
                     if member.isfile() and member.name.endswith('.json'):
                         try:
                             urn = extract_urn_from_filename(member.name)
@@ -235,7 +236,7 @@ def read_ctext_archive(book_path: str, wiki_pattern: str) -> Dict[str, str]:
                         except:
                             continue
                 
-                log(f"✓ Loaded {count} texts from books")
+                log(f"Loaded {count} texts from books")
         except Exception as e:
             log(f"Error reading book archive: {e}")
     
@@ -253,8 +254,8 @@ def read_ctext_archive(book_path: str, wiki_pattern: str) -> Dict[str, str]:
             with tempfile.NamedTemporaryFile(suffix='.tar.gz', delete=False) as tmp:
                 tmp_path = tmp.name
             
-            # 用進度條顯示合併過程
-            log("📦 Merging wiki parts...")
+            # Show merge progress with a progress bar
+            log("Merging wiki parts...")
             subprocess.run(['cat'] + wiki_files, stdout=open(tmp_path, 'wb'), check=True)
             
             log(f"Reading combined wiki archive...")
@@ -264,7 +265,7 @@ def read_ctext_archive(book_path: str, wiki_pattern: str) -> Dict[str, str]:
                 members = tar.getmembers()
                 log(f"Found {len(members)} files in wiki archive")
                 
-                for member in tqdm(members, desc="📖 Loading wiki", ncols=100, unit="file"):
+                for member in tqdm(members, desc="Loading wiki", ncols=100, unit="file"):
                     if member.isfile() and member.name.endswith('.json'):
                         try:
                             urn = extract_urn_from_filename(member.name)
@@ -296,7 +297,7 @@ def read_ctext_archive(book_path: str, wiki_pattern: str) -> Dict[str, str]:
                         except:
                             continue
             
-            log(f"✓ Loaded {count} texts from wiki parts")
+            log(f"Loaded {count} texts from wiki parts")
             
             try:
                 os.remove(tmp_path)
@@ -306,7 +307,7 @@ def read_ctext_archive(book_path: str, wiki_pattern: str) -> Dict[str, str]:
         except Exception as e:
             log(f"Error reading wiki archive: {e}")
     
-    log(f"✓ Total loaded: {len(texts)} unique texts from local archive")
+    log(f"Total loaded: {len(texts)} unique texts from local archive")
     return texts
 
 
@@ -331,7 +332,7 @@ def compute_keyword_embeddings(
     """
     char_counts = {ch: 0 for ch in target_chars}
     
-    # 用進度條包裝句子迭代
+    # Wrap sentence iteration with a progress bar
     sentence_iter = enumerate(sentences)
     if show_progress:
         sentence_iter = tqdm(sentence_iter, total=len(sentences), 
@@ -448,7 +449,6 @@ def main():
     
     log("=" * 60)
     log("Keyword Embedding Extraction using GujiBERT")
-    log("Created: 2025-01-26 by Claude for Bruce's research")
     log("=" * 60)
     
     # Determine target characters
@@ -480,9 +480,9 @@ def main():
         log(f"Using device: {args.device}")
     
     # Load metadata
-    log(f"📋 Loading metadata from {args.metadata}")
+    log(f"Loading metadata from {args.metadata}")
     metadata_df = pd.read_csv(args.metadata, low_memory=False)
-    log(f"✓ Total texts in metadata: {len(metadata_df)}")
+    log(f"Total texts in metadata: {len(metadata_df)}")
     
     # Filter to valid dynasties only
     valid_dynasties = set()
@@ -497,18 +497,18 @@ def main():
     metadata_df['dynasty_category'] = metadata_df['fromDynastyName'].map(DYNASTY_TO_CATEGORY)
     
     # Read local CText archive
-    log("📚 Reading local CText archive files...")
+    log("Reading local CText archive files...")
     log("   This may take 5-10 minutes...")
-    archive_texts = read_ctext_archive(BOOK_DATA_PATH, WIKI_DATA_PATTERN)
+    archive_texts = read_ctext_archive(args.book_data_path, args.wiki_data_pattern)
     
     # Load model
-    log(f"🔄 Loading model: {MODEL_ID}")
+    log(f"Loading model: {MODEL_ID}")
     log("   This may take a few minutes...")
     tokenizer = AutoTokenizer.from_pretrained(MODEL_ID, use_fast=True)
     model = AutoModel.from_pretrained(MODEL_ID, torch_dtype=torch.float32)
     model = model.to(device)
     model.eval()
-    log("✓ Model loaded successfully")
+    log("Model loaded successfully")
     
     # Create output directories
     output_base = args.output
@@ -552,7 +552,7 @@ def main():
         
         # Process each text
         for idx, row in tqdm(cat_df.iterrows(), total=len(cat_df), 
-                           desc=f"📝 {dynasty_cat}", ncols=100, unit="text"):
+                           desc=f"{dynasty_cat}", ncols=100, unit="text"):
             title = row['title']
             toptitle = row['toptitle']
             dynasty = row['fromDynastyName']
@@ -632,7 +632,7 @@ def main():
             fh.close()
         
         # Dynasty summary
-        log(f"\n--- ✅ {dynasty_cat} Summary ---")
+        log(f"\n--- {dynasty_cat} Summary ---")
         log(f"Texts processed: {processed_count}")
         log(f"Skipped (checkpoint): {skipped_checkpoint}")
         log(f"Skipped (not found): {skipped_not_found}")
@@ -643,13 +643,13 @@ def main():
     
     # Final summary
     log(f"\n{'='*60}")
-    log("🎉 FINAL SUMMARY")
+    log("FINAL SUMMARY")
     log(f"{'='*60}")
     log("Total embeddings per character:")
     for ch in sorted(total_stats.keys()):
         log(f"  {ch}: {total_stats[ch]:,}")
-    log(f"\n📁 Output directory: {output_base}")
-    log("✅ Done!")
+    log(f"\nOutput directory: {output_base}")
+    log("Done.")
 
 
 if __name__ == "__main__":

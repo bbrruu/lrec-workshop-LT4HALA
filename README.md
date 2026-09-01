@@ -12,15 +12,16 @@ The paper and detailed reproduction notes are available in [`documentation/`](do
 
 | Directory | Contents |
 |---|---|
-| [`code/`](code/) | Embedding extraction, cleaning, sampling, clustering, and post-processing scripts |
+| [`code/`](code/) | Embedding extraction, cleaning, sampling, clustering, label-template generation, and plotting scripts, orchestrated by `code/pipeline.py` |
 | [`configs/`](configs/) | Run parameters and Global cluster semantic labels |
 | [`results/hand/`](results/hand/) | Global, Local, and annotated results for 手 |
 | [`results/water/`](results/water/) | Global, Local, and annotated results for 水 |
 | [`results/dao/`](results/dao/) | Global, Local, and annotated results for 道 |
+| [`results/sensitivity_analysis/`](results/sensitivity_analysis/) | Parameter sweep backing the K/merge/split sensitivity analysis in Section 3.2 |
 | [`figures/`](figures/) | Figures corresponding to Figures 1–6 in the paper |
 | [`documentation/`](documentation/) | Pipeline specification and reproduction checklist |
 
-Each result directory contains CSV assignments, JSON statistics, and visualizations. The `annotated/` directories contain the semantic labels used in the paper.
+Each result directory contains CSV assignments, JSON statistics, and visualizations. The `annotated/` directories contain the semantic labels used in the paper. Global labels always require a human/LLM-in-the-loop judgment call; Local labels were produced two different ways depending on the character — 道/水 inherit their Local labels from Global automatically, while 手's Local clusters were independently re-labeled per dynasty. See [`documentation/pipeline.md`'s Annotation section](documentation/pipeline.md#annotation) for the full explanation.
 
 ## Main Results
 

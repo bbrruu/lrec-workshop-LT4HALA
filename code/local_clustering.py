@@ -1,10 +1,12 @@
 """
 Overclustering + Auto-Merge + Hierarchical Refinement (V2.4.1)
-🌟 0221 修復版：Dynamic Sub-K + 恢復單一朝代 PNG 匯出
+Dynamic Sub-K, with per-dynasty PNG export restored.
 
-主要改動：
-1. 動態決定切分數 (2~6群)，對抗破碎感。
-2. 補回 visualize_clusters 函數，正常產出各朝代 _viz.png。
+Key changes in this revision:
+1. The number of sub-clusters is now determined dynamically (2-6 groups) to
+   counter over-fragmentation.
+2. Restored the visualize_clusters function so each dynasty again produces
+   its own _viz.png.
 """
 
 import numpy as np
@@ -34,7 +36,7 @@ try:
     MATPLOTLIB_AVAILABLE = True
 except ImportError:
     MATPLOTLIB_AVAILABLE = False
-    print("[WARNING] matplotlib 未安裝，將跳過圖片生成")
+    print("[WARNING] matplotlib is not installed; figure generation will be skipped")
 
 try:
     from adjustText import adjust_text
@@ -46,6 +48,9 @@ except ImportError:
 # CONFIG
 # ============================================================
 
+# Note: these display names are used only for chart titles and log
+# messages, not written into the released assignment CSVs. Kept as-is for
+# consistency with global_clustering.py.
 DYNASTY_NAMES = {
     "pre-qin": "先秦", "qinhan": "秦漢", "weijin": "魏晉",
     "suitang": "隋唐", "songyuan": "宋元", "ming": "明",
@@ -61,8 +66,8 @@ DYNASTY_ORDER = ["pre-qin", "qinhan", "weijin", "suitang", "songyuan", "ming", "
 
 DEFAULT_K_INITIAL = 20
 DEFAULT_MERGE_RATIO = 0.95
-DEFAULT_SPLIT_RATIO = 0.20   # 超過朝代總樣本數 20% 的 cluster 才切
-MIN_ABSOLUTE_SIZE = 100      # 絕對下限，避免極小朝代切太碎
+DEFAULT_SPLIT_RATIO = 0.20   # Only clusters exceeding 20% of a dynasty's total samples are split
+MIN_ABSOLUTE_SIZE = 100      # Absolute floor, so very small dynasties are not split too finely
 SILHOUETTE_SAMPLE_LIMIT = 5000
 
 # ============================================================
@@ -79,7 +84,7 @@ def log(message):
 
 def build_global_pca(input_dir: str, char: str):
     if not MATPLOTLIB_AVAILABLE: return None
-    log(f"[Global PCA] 載入所有朝代 embeddings（字：{char}）...")
+    log(f"[Global PCA] Loading embeddings for every dynasty (char: {char})...")
     all_embeddings = []
 
     for dynasty in DYNASTY_ORDER:
@@ -90,12 +95,12 @@ def build_global_pca(input_dir: str, char: str):
             vecs = [r['vector'] for r in data.get('records', []) if 'vector' in r]
             all_embeddings.extend(vecs)
         except Exception as e:
-            log(f"  讀取 {dynasty} 失敗: {e}")
+            log(f"  Failed to read {dynasty}: {e}")
 
     if not all_embeddings: return None
 
     arr = np.array(all_embeddings, dtype=np.float32)
-    log(f"[Global PCA] 共 {len(arr)} 筆，fitting PCA(n_components=2)...")
+    log(f"[Global PCA] {len(arr)} records total, fitting PCA(n_components=2)...")
     pca = PCA(n_components=2, random_state=42).fit(arr)
     return pca
 
@@ -158,10 +163,10 @@ def subcluster_all_large_groups_dynamic(embeddings, labels, split_ratio=0.20, mi
     large = [(int(l), int(c)) for l, c in zip(unique_labels, counts) if c > threshold]
 
     if not large:
-        log(f"    ✅ 無超過閾值（>{threshold}）的群組，跳過切分")
+        log(f"    No cluster exceeds the threshold (>{threshold}), skipping split")
         return labels, {}
 
-    log(f"    🔍 發現 {len(large)} 個超過閾值（>{threshold}）的群組，啟動動態切分")
+    log(f"    Found {len(large)} clusters exceeding the threshold (>{threshold}), running dynamic split")
     current_labels = labels.copy()
     next_id = int(np.max(current_labels)) + 1
     split_info = {}
@@ -172,8 +177,8 @@ def subcluster_all_large_groups_dynamic(embeddings, labels, split_ratio=0.20, mi
         elif count >= 5000: dyn_sub_k = 4
         elif count >= 2000: dyn_sub_k = 3
         else: dyn_sub_k = 2
-            
-        log(f"      🔪 C{target_label} (n={count}) → 動態切為 {dyn_sub_k} 份")
+
+        log(f"      C{target_label} (n={count}) -> dynamically split into {dyn_sub_k} parts")
         mask = (current_labels == target_label)
         sub_emb = embeddings[mask]
         orig_idx = np.where(mask)[0]
@@ -210,7 +215,7 @@ def extract_representative_samples(embeddings, labels, records, n_core=8, n_boun
         mask = (labels == label)
         indices = np.where(mask)[0]
         if len(indices) == 0: continue
-        
+
         points = embeddings[mask]
         centroid = points.mean(axis=0)
         dists = np.linalg.norm(points - centroid, axis=1)
@@ -231,22 +236,22 @@ def extract_representative_samples(embeddings, labels, records, n_core=8, n_boun
 # ============================================================
 
 def visualize_clusters(embed_2d, labels, title, output_path):
-    """🌟 補回來的：單一朝代繪圖函數"""
+    """Per-dynasty scatter plot."""
     if not MATPLOTLIB_AVAILABLE: return
     n_clusters = len(np.unique(labels))
-    
+
     fig, ax = plt.subplots(figsize=(14, 11))
     palette = sns.color_palette('husl', n_clusters)
-    
+
     sns.scatterplot(x=embed_2d[:, 0], y=embed_2d[:, 1], hue=labels,
                     palette=palette, legend='full', alpha=0.6, s=15,
                     edgecolor='none', ax=ax)
 
-    # 加上標籤
+    # Add cluster labels
     for lbl in np.unique(labels):
         mask = (labels == lbl)
         center = embed_2d[mask].mean(axis=0)
-        ax.text(center[0], center[1], f"C{lbl}", fontsize=11, fontweight='bold', 
+        ax.text(center[0], center[1], f"C{lbl}", fontsize=11, fontweight='bold',
                 bbox=dict(facecolor='white', alpha=0.85, boxstyle='circle', edgecolor='gray'))
 
     ax.set_title(title, fontsize=15, pad=12, fontweight='bold')
@@ -270,7 +275,7 @@ def plot_facet_grid(dynasty_results, char, output_dir, global_pca=None):
         ax = axes[idx]
         res = dynasty_results.get(dynasty)
         if not res:
-            ax.set_title(f"{DYNASTY_NAMES.get(dynasty, dynasty)}\n(無資料)")
+            ax.set_title(f"{DYNASTY_NAMES.get(dynasty, dynasty)}\n(no data)")
             ax.axis('off')
             continue
 
@@ -303,20 +308,20 @@ def process_dynasty(char, dynasty, input_dir, k_initial, merge_ratio, split_rati
     n_samples = len(records)
     if n_samples < 10: return None
 
-    log(f"  處理 {DYNASTY_NAMES.get(dynasty, dynasty)} (n={n_samples})...")
+    log(f"  Processing {DYNASTY_NAMES.get(dynasty, dynasty)} (n={n_samples})...")
     embeddings_768d = np.array([r['vector'] for r in records], dtype=np.float32)
     raw_sentences = [r.get('sentence', '') for r in records]
     raw_titles = [r.get('toptitle', '') or r.get('work_title', '') for r in records]
-    
+
     adaptive_k = get_adaptive_k_initial(n_samples, k_initial)
     labels_init = overcluster_768d(embeddings_768d, adaptive_k, n_samples)
     labels_merged, merge_hist = auto_merge_clusters_cosine(labels_init, embeddings_768d, merge_ratio)
-    
+
     labels_final, split_info = subcluster_all_large_groups_dynamic(embeddings_768d, labels_merged, split_ratio=split_ratio)
 
     embed_2d = global_pca.transform(embeddings_768d) if global_pca else PCA(n_components=2, random_state=42).fit_transform(embeddings_768d)
     sil = silhouette_score(embeddings_768d[:5000], labels_final[:5000]) if len(embeddings_768d) > 5000 else silhouette_score(embeddings_768d, labels_final)
-    
+
     return {
         "dynasty": dynasty, "n_samples": n_samples, "k_final": len(np.unique(labels_final)),
         "labels": labels_final, "silhouette": sil, "split_info": split_info,
@@ -336,11 +341,11 @@ def main():
 
     chars = args.chars.split(',')
     param_suffix = f"Local_k{args.k_init}_split{args.split_ratio}_DynamicSubK"
-    
+
     for char in chars:
         char_dir = os.path.join(args.output, f"char_{char}_{param_suffix}")
         os.makedirs(char_dir, exist_ok=True)
-        log(f"\n🚀 開始處理字: {char} (Local V2.4.1 Dynamic Sub-K)")
+        log(f"\nProcessing character: {char} (Local V2.4.1 Dynamic Sub-K)")
 
         global_pca = build_global_pca(args.input, char)
         dynasty_results = {}
@@ -348,24 +353,24 @@ def main():
         for dyn in DYNASTY_ORDER:
             res = process_dynasty(char, dyn, args.input, args.k_init, args.merge_ratio, args.split_ratio, global_pca)
             dynasty_results[dyn] = res
-            
+
             if res:
-                # 存 JSON
+                # Save JSON
                 stats = {k: v for k, v in res.items() if k not in ['labels', 'embed_2d', 'raw_sentences', 'raw_titles']}
                 with open(os.path.join(char_dir, f"{dyn}_stats.json"), 'w', encoding='utf-8') as f:
                     json.dump(stats, f, ensure_ascii=False, indent=2, default=lambda x: int(x) if isinstance(x, np.integer) else x)
 
-                # 🌟 產出各朝代單獨的散佈圖 PNG
+                # Produce this dynasty's individual scatter plot PNG
                 if MATPLOTLIB_AVAILABLE:
                     title = f'"{char}" ({DYNASTY_NAMES[dyn]}) - Local Clustering (K={res["k_final"]})'
                     out_png = os.path.join(char_dir, f"{dyn}_viz.png")
                     visualize_clusters(res["embed_2d"], res["labels"], title, out_png)
-                    log(f"    🖼️ 已儲存圖片: {dyn}_viz.png")
+                    log(f"    Saved figure: {dyn}_viz.png")
 
-        # 畫八宮格
+        # Render the facet grid
         plot_facet_grid(dynasty_results, char, char_dir, global_pca)
 
-        # 匯出大 CSV
+        # Export the merged CSV
         all_rows = []
         for dyn in DYNASTY_ORDER:
             res = dynasty_results.get(dyn)
@@ -379,7 +384,7 @@ def main():
             df = pd.DataFrame(all_rows)
             df['dynasty'] = pd.Categorical(df['dynasty'], categories=DYNASTY_ORDER, ordered=True)
             df.sort_values('dynasty').to_csv(os.path.join(char_dir, f"{char}_Local_Dynamic_Merged.csv"), index=False, encoding='utf-8-sig')
-            log(f"✅ 完成！所有資料與圖片皆輸出至 {char_dir}")
+            log(f"Done. All data and figures written to {char_dir}")
 
 if __name__ == "__main__":
     main()

@@ -23,6 +23,6 @@
   "semantic": {
     "hand_label_version": "auto",
     "hand_label_map_json": "",
-    "label_map_json": "label_templates/dao_shui_labels.json"
+    "label_map_json": "configs/dao_shui_labels.json"
   }
 }

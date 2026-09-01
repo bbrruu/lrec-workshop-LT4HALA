@@ -1,0 +1,13 @@
+mode,run_id,group,group_value,k,merge_ratio,split_ratio,success,elapsed_sec,silhouette,final_k,total_samples,out_dir,error
+global,global_k10_m0p95_s0p10,K,10,10,0.95,0.1,True,32.287,0.033463,21.0000,185792,/mnt/md0/public/dicwn/lrec-workshop/0331_parameter_test_output/runs/global/global_k10_m0p95_s0p10/char_手_k10_subk6_split0.1,
+global,global_k15_m0p95_s0p10,K,15,15,0.95,0.1,True,23.76,0.051201,17.0000,185792,/mnt/md0/public/dicwn/lrec-workshop/0331_parameter_test_output/runs/global/global_k15_m0p95_s0p10/char_手_k15_subk6_split0.1,
+global,global_k20_m0p95_s0p10,K,20,20,0.95,0.1,True,24.557,0.049196,17.0000,185792,/mnt/md0/public/dicwn/lrec-workshop/0331_parameter_test_output/runs/global/global_k20_m0p95_s0p10/char_手_k20_subk6_split0.1,
+global,global_k25_m0p95_s0p10,K,25,25,0.95,0.1,True,25.445,0.053998,16.0000,185792,/mnt/md0/public/dicwn/lrec-workshop/0331_parameter_test_output/runs/global/global_k25_m0p95_s0p10/char_手_k25_subk6_split0.1,
+global,global_k30_m0p95_s0p10,K,30,30,0.95,0.1,True,26.044,0.039968,22.0000,185792,/mnt/md0/public/dicwn/lrec-workshop/0331_parameter_test_output/runs/global/global_k30_m0p95_s0p10/char_手_k30_subk6_split0.1,
+global,global_k20_m0p90_s0p10,merge_ratio,0.9,20,0.9,0.1,True,24.651,0.050589,6.0000,185792,/mnt/md0/public/dicwn/lrec-workshop/0331_parameter_test_output/runs/global/global_k20_m0p90_s0p10/char_手_k20_subk6_split0.1,
+global,global_k20_m0p92_s0p10,merge_ratio,0.92,20,0.92,0.1,True,24.395,0.033422,12.0000,185792,/mnt/md0/public/dicwn/lrec-workshop/0331_parameter_test_output/runs/global/global_k20_m0p92_s0p10/char_手_k20_subk6_split0.1,
+global,global_k20_m0p95_s0p10,merge_ratio,0.95,20,0.95,0.1,True,24.557,0.049196,17.0000,185792,/mnt/md0/public/dicwn/lrec-workshop/0331_parameter_test_output/runs/global/global_k20_m0p95_s0p10/char_手_k20_subk6_split0.1,
+global,global_k20_m0p97_s0p10,merge_ratio,0.97,20,0.97,0.1,True,22.082,0.042886,20.0000,185792,/mnt/md0/public/dicwn/lrec-workshop/0331_parameter_test_output/runs/global/global_k20_m0p97_s0p10/char_手_k20_subk6_split0.1,
+global,global_k20_m0p95_s0p10,split_ratio,0.1,20,0.95,0.1,True,24.557,0.049196,17.0000,185792,/mnt/md0/public/dicwn/lrec-workshop/0331_parameter_test_output/runs/global/global_k20_m0p95_s0p10/char_手_k20_subk6_split0.1,
+global,global_k20_m0p95_s0p30,split_ratio,0.3,20,0.95,0.3,True,24.208,0.049304,12.0000,185792,/mnt/md0/public/dicwn/lrec-workshop/0331_parameter_test_output/runs/global/global_k20_m0p95_s0p30/char_手_k20_subk6_split0.3,
+global,global_k20_m0p95_s0p50,split_ratio,0.5,20,0.95,0.5,True,24.144,0.049304,12.0000,185792,/mnt/md0/public/dicwn/lrec-workshop/0331_parameter_test_output/runs/global/global_k20_m0p95_s0p50/char_手_k20_subk6_split0.5,

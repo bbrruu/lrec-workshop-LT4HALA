@@ -1,26 +1,5 @@
 {
   "道": {
-    "local": {
-      "0": ["Unlabeled", "C0"],
-      "1": ["Unlabeled", "C1"],
-      "2": ["Unlabeled", "C2"],
-      "3": ["Unlabeled", "C3"],
-      "4": ["Unlabeled", "C4"],
-      "5": ["Unlabeled", "C5"],
-      "6": ["Unlabeled", "C6"],
-      "7": ["Unlabeled", "C7"],
-      "8": ["Unlabeled", "C8"],
-      "9": ["Unlabeled", "C9"],
-      "10": ["Unlabeled", "C10"],
-      "11": ["Unlabeled", "C11"],
-      "12": ["Unlabeled", "C12"],
-      "13": ["Unlabeled", "C13"],
-      "14": ["Unlabeled", "C14"],
-      "15": ["Unlabeled", "C15"],
-      "16": ["Unlabeled", "C16"],
-      "17": ["Unlabeled", "C17"],
-      "18": ["Unlabeled", "C18"]
-    },
     "joint": {
       "0":  ["Medical", "Fluid_Pathway"],
       "1":  ["Religion", "Daoist_Clergy"],
@@ -47,23 +26,6 @@
     }
   },
   "水": {
-    "local": {
-      "0": ["Unlabeled", "C0"],
-      "1": ["Unlabeled", "C1"],
-      "2": ["Unlabeled", "C2"],
-      "3": ["Unlabeled", "C3"],
-      "4": ["Unlabeled", "C4"],
-      "5": ["Unlabeled", "C5"],
-      "6": ["Unlabeled", "C6"],
-      "7": ["Unlabeled", "C7"],
-      "8": ["Unlabeled", "C8"],
-      "9": ["Unlabeled", "C9"],
-      "10": ["Unlabeled", "C10"],
-      "11": ["Unlabeled", "C11"],
-      "12": ["Unlabeled", "C12"],
-      "13": ["Unlabeled", "C13"],
-      "14": ["Unlabeled", "C14"]
-    },
     "joint": {
       "0": ["Physical_Usage", "Culinary_Solvent"],
       "1": ["Cosmology", "Water_Fire"],
@@ -77,6 +39,6 @@
       "9": ["Literary", "Imagery"],
       "10": ["Geography", "Hydrology"],
       "11": ["Geomancy", "Fengshui"]
+    }
   }
-}
 }

@@ -57,6 +57,7 @@ The Global counts can be checked in each character's `global/*_global_stats.json
 - [ ] Local PCA coordinates are interpreted in the shared cross-period space.
 - [ ] Figure files can be traced to the corresponding result directory and script.
 - [ ] Any difference caused by package versions, source snapshots, or model versions is recorded.
+- [ ] Local labels are checked against the correct method for each character — 道/水 are inherited from Global via join + majority vote (no `"local"` block in `configs/dao_shui_labels.json`), while 手 is independently annotated per `(dynasty, Local_Cluster)` (`"local"` block in `configs/hand_labels.json`, 85 entries). Do not assume all three characters use the same Local-labeling method — see [`pipeline.md`'s Annotation section](pipeline.md#annotation).
 
 ## Public Release Boundary
 

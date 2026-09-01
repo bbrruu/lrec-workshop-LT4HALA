@@ -40,6 +40,11 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional
 
+# Stage scripts (extract_keyword.py, clean_ocr_errors.py, stratified_sampling.py,
+# clean_data.py, local_clustering.py, global_clustering.py) live next to this file
+# in code/, independent of --workdir (which locates run outputs and label configs).
+SCRIPT_DIR = Path(__file__).resolve().parent
+
 import matplotlib
 import numpy as np
 
@@ -1215,7 +1220,7 @@ def main() -> None:
         else:
             cmd = [
                 args.python_bin,
-                str((workdir / "extract_keyword.py").resolve()),
+                str((SCRIPT_DIR / "extract_keyword.py").resolve()),
                 "--output", str(stage_paths["keyword_embeddings"]),
                 "--metadata", args.extract_metadata,
                 "--chars", *chars,
@@ -1243,7 +1248,7 @@ def main() -> None:
         for ch in chars:
             cmd = [
                 args.python_bin,
-                str((workdir / "mainfiles/clean_ocr_errors.py").resolve()),
+                str((SCRIPT_DIR / "clean_ocr_errors.py").resolve()),
                 "--char", ch, "--mode", args.clean1_mode,
                 "--input-dir",  str(stage_paths["keyword_embeddings"]),
                 "--output-dir", str(stage_paths["cleaned_embeddings"]),
@@ -1264,7 +1269,7 @@ def main() -> None:
     if stage_enabled("sample", args.start_stage, args.end_stage):
         cmd = [
             args.python_bin,
-            str((workdir / "mainfiles/stratified_sampling_cleaned.py").resolve()),
+            str((SCRIPT_DIR / "stratified_sampling.py").resolve()),
             "--chars", ",".join(chars),
             "--max-per-toptitle",    str(args.sample_max_per_toptitle),
             "--baseline-max-samples", str(args.sample_baseline_max),
@@ -1286,7 +1291,7 @@ def main() -> None:
         for ch in chars:
             cmd = [
                 args.python_bin,
-                str((workdir / "mainfiles/0212_clean_data.py").resolve()),
+                str((SCRIPT_DIR / "clean_data.py").resolve()),
                 "--char", ch,
                 "--input",      str(stage_paths["sampled"]),
                 "--output",     str(stage_paths["clean2"]),
@@ -1308,7 +1313,7 @@ def main() -> None:
     if stage_enabled("local", args.start_stage, args.end_stage):
         cmd = [
             args.python_bin,
-            str((workdir / "0219_align_clustering.py").resolve()),
+            str((SCRIPT_DIR / "local_clustering.py").resolve()),
             "--chars",       ",".join(chars),
             "--input",       str(stage_paths["clean2"]),
             "--output",      str(stage_paths["local"]),
@@ -1330,7 +1335,7 @@ def main() -> None:
         for ch in chars:
             cmd = [
                 args.python_bin,
-                str((workdir / "0219_joint_cluster.py").resolve()),
+                str((SCRIPT_DIR / "global_clustering.py").resolve()),
                 "--input",       str(stage_paths["clean2"]),
                 "--char",        ch,
                 "--output",      str(stage_paths["global"]),
